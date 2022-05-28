@@ -1,0 +1,232 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box   
+}
+body {
+    background: linear-gradient(24deg, rgba(2,0,36,1) 0%, rgba(57,57,141,1) 35%, rgba(63,170,192,1) 100%);
+    color: aliceblue;
+    padding: 3rem;
+}
+h1{
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    text-decoration: none;
+}
+.menuinicial{
+    padding: 2rem;
+}
+.menuinicial ul{
+    list-style: none;
+    background-color: rgb(92, 214, 214);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    height: auto;
+    text-align: center;
+}
+.menuinicial ul li{
+    font-size: 1.5rem;
+}
+.menuinicial ul li a{
+    display: inline-block;
+    color: rgb(6, 6, 7);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: bold;
+}
+.menuinicial ul li a:hover{
+    color: rgb(155, 97, 210);
+}
+.menuinicial ul li ul{
+    display: none;
+}
+.menuinicial ul li:hover ul{
+    display: block;
+}
+.intro{
+    line-height: 5mm;
+    border: rgb(131, 125, 125) solid;
+    width: 600px;
+    height: 300px;
+    position: relative;
+    text-align: justify;
+    margin-left: 6vw;
+    top: -3vh;
+    padding: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.videohome{
+    position: relative;
+    left: 60vw;
+    top: -320px;
+}
+h2{
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 4vw;
+    margin-top: 0%;
+}
+hr{
+    margin-top: 10vh;
+}
+.Productos1{
+    margin-top: 6vh;
+}
+.productoshome{
+    display: flex;
+    margin-top: 3rem;
+    margin-left: 5vw;
+    margin-bottom: 7rem;
+    font-size: large;
+    font-style: italic;
+    line-height: 8mm;
+    justify-content: space-evenly;
+}
+.sucursales{
+    list-style: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+.sucursales li a{
+    color:darkmagenta;
+  
+}
+.sucursales li a:hover{                    
+    background-color:blanchedalmond;
+}
+.menu2{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    background-color:deepskyblue;
+}
+.menu2 li a{
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+}
+.menu2 li a:hover{
+    background-color: aquamarine;
+}
+.contenedorAbout{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: auto 2fr 2fr;
+    grid-template-areas:
+    "Habout Habout"
+    "main main"
+    "videonos videonos";
+}
+.Habout{
+    width: 90%;
+    grid-area: Habout;
+}
+.main{
+    background-color:rgb(80, 103, 162);
+    line-height: 25px;
+    border: 2px black solid;
+    width: 90%;
+    height: 80%;
+    padding: 1rem;
+    margin: 2rem auto;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow: auto;
+    grid-area: main;
+}
+.videonos {
+    position: relative;
+    left: 20vw;
+    top: 50px;
+    grid-area: videonos;
+}
+.Fabout{
+    margin-top: 10rem;
+}
+.Fordatos{
+    padding: 5mm;
+    color: rgb(210, 233, 221);
+    font-size: large;   
+    width: 90%;
+}
+h6{
+ display: flex;
+ justify-content: right;
+}
+.Forcoment{
+    width: 90%;
+    grid-area: Forcoment;
+}
+.Footcontact{
+    grid-area: Footcontact;
+    width: 90%;
+}
+.Hcontact{
+    width: 90%;
+    grid-area: Hcontact;
+}
+@media screen and (max-width:320px) {
+    .contenedorAbout{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 2fr 1fr 1fr;
+        grid-template-areas: 
+        "Habout"
+        "main"
+        "videonos";
+    }
+    .Fabout{
+        margin-top: 80%;
+    }
+}
+@media screen and (max-width:600px) {
+    .contenedorAbout{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 2fr auto auto;
+        grid-template-areas: 
+        "Habout"
+        "main"
+        "videonos";
+    }
+}
+.contenedorcontacto {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+    "Hcontact"
+    "coments"
+    "Fordatos"
+    "footcontact";
+}
+@media screen and (max-width:320px) {
+    .contenedorcontacto{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto 1fr auto;
+        grid-template-areas: 
+        "Hcontact"
+        "coments"
+        "Fordatos"
+        "footcontact";
+    }
+}
+@media screen and (max-width:600px) {
+    .contenedorAbout{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 2fr 2fr auto;
+        grid-template-areas: 
+        "Hcontact"
+        "coments"
+        "Fordatos"
+        "footcontact";}
+    }
