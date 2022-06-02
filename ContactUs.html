@@ -42,27 +42,29 @@
                     <textarea name="Comentarios" id="" cols="30" rows="10" placeholder="Deja tus comentarios..."></textarea>
                 </div>
         </section><br>
-        <section class="Fordatos">
-            <fieldset>
-                <div>
-                    <label for="Nombre">Completar con tu nombre</label>
-                    <input type="text" name="Nombre" id="">
-                </div><br>
-                <div>
-                    <label for="Apellido">Completar con tu apellido</label>
-                    <input type="text" name="Apellido" id="">
-                </div><br>
-                <div>
-                    <label for="Email">Completar con email</label>
-                    <input type="email" required>
-                </div><br>
-                <div>
-                    <label for="sexo">Genero</label><br>
-                    <input type="radio" name="sexo" id="Masculino" value="Masculino"> Masculino
-                    <input type="radio" name="sexo" id="Femenino" value="Femenino"> Femenino
-                </div><br>
-                <div>
-                    <input type="button" name="submit" id="Enviar" value="Enviar">
+                    <div class="Bootform">
+                    <form>
+                        <div class="mb-3">
+                          <label for="name" class="form-label">Nombre y apellido</label>
+                          <input type="name" class="form-control" id="exampleInputname">
+                        </div>
+                        <div class="mb-3">
+                          <label for="email" class="form-label">Email</label>
+                          <input type="email" class="form-control" id="email">
+                        </div><br>
+                        <h4>
+                            Género.
+                        </h4>
+                        <div class="mb-3 form-check">
+                          <input type="radio" class="form-check-input" id="Masculino">
+                          <label class="Genero" value="Masculino">Masculino</label>
+                        </div>
+                        <div>
+                          <input type="radio" class="form-check-input" id="Femenino">
+                          <label class="Genero" value="Femenino">Femenino</label>
+                        </div><br>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
                 </div>
             </fieldset>
         </section>                     
@@ -71,14 +73,14 @@
     <footer class="footcontact">
         <br><br><hr><br>
         <section>
-            <ul class="sucursales">
+            <ul class="sucursales text-opacity-25">
                 <li class="sucursales__img"><a href="#">Sucursal Olivos</a><img src="../Sapu café.png" alt="Sucursal Olivos" width="200px"></li>
                 <li class="sucursales__img"><a href="#">Sucursal Martinez</a><img src="../Sapu café.png" alt="Sucursal Martinez" width="200px"></li>
                 <li class="sucursales__img"><a href="#">Sucursal CABA</a><img src="../Sapu café.png" alt="Sucursal CABA" width="200px"></li>
             </ul>
         </section>
     <br><hr><br>
-    <nav>
+    <nav class="bg-info p-2">
         <ul class="menu2">
             <li><a href="./index.html">Home</a></li>
             <li><a href="#">Facebook</a></li>

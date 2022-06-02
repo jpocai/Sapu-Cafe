@@ -110,7 +110,6 @@ hr{
     display: flex;
     justify-content: space-evenly;
     width: 90%;
-    background-color:deepskyblue;
 }
 .menu2 li a{
     color: black;
