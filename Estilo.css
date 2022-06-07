@@ -21,10 +21,10 @@ h1{
 .headerinicio{
     width: 90%;
     margin: 20px auto;
+    grid-area: headerInicio;
 }
 .menuinicial{
-    padding: 2rem;
-    background: radial-gradient(lightblue, rgb(81, 167, 224), rgb(34, 52, 211));
+    padding: 2rem;  
 }
 .menuinicial ul{
     list-style: none;
@@ -39,7 +39,7 @@ h1{
 }
 .menuinicial ul li a{
     display: inline-block;
-    color: rgb(6, 6, 7);
+    color: aquamarine;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: bold;
 }
@@ -52,25 +52,21 @@ h1{
 .menuinicial ul li:hover ul{
     display: block;
 }
-.fondoindex{
-    background-size: cover;
-}
 .intro{
-    line-height: 5mm;
+    line-height: 7mm;
     width: 80%;
-    height: 300px;
+    height: 400px;
     position: relative;
+    margin: 2rem auto;
     text-align: justify;
-    margin: 4vw auto;
     padding: 2rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
-#carouselSlidesOnly{
-    margin: 20px auto;
+    overflow: auto;
 }
 .carousel{
     display: flex;
     display: inline-block;
+    margin: 2rem auto;
 }
 h2{
     font-size: larger;
@@ -81,39 +77,22 @@ h2{
 hr{
     margin-top: 10vh;
 }
-#Productos1{
-    margin-top: 6vh;
-}
-.Productos1__titulo{
-    display: flex;
-    margin-top: 3rem;
-    margin: 5vw auto;
-    margin-bottom: 7rem;
-    font-size: large;
-    font-style: italic;
-    line-height: 8mm;
-    justify-content: space-evenly;
-}
-.Productos1__pr:hover{
-    transform: scale(1.5, 1.5);
-}
 .sucursales{
     list-style: none;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 5rem;
+    margin: 5rem auto;
 }
-
 .sucursales__img:hover{
-    transform: scale(1.3, 1.3);
+    transform: scale(1.2, 1.2);
 }
 .menu2{
     list-style: none;
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
-    width: 90%;
 }
 .menu2 li a{
     color: black;
@@ -123,9 +102,13 @@ hr{
 .menu2 li a:hover{
     background-color: aquamarine;
 }
+.ContenedorAbout{
+    width: 90%;
+}
 .HAbout{
     width: 90%;
     margin: auto;
+    grid-area: HAbout;
 }
 .main{
     background-color:rgb(80, 103, 162);
@@ -138,6 +121,7 @@ hr{
     text-align: justify;
     font-family: Georgia, 'Times New Roman', Times, serif;
     overflow: auto;
+    grid-area: main;
 }
 .videonos {
     grid-area: videonos;
@@ -146,18 +130,19 @@ hr{
 }
 .Fabout{
     margin-top: 10rem;
+    grid-area: Fabout;
 }
 .foto1{
-    grid-area: foto1;
+    grid-area:foto1;
 }
 .foto2{
-    grid-area: foto2;
+    grid-area:foto2;
 }
 .foto3{
-    grid-area: foto3;
+    grid-area:foto3;
 }
 .foto4{
-    grid-area: foto4;
+    grid-area:foto4;
 }
 .contGrid{
     width: 90%;
@@ -173,38 +158,72 @@ hr{
 }
 h6{
  display: flex;
- justify-content: right;
+ justify-content: right;   
 }
-@media screen and (max-width:320px) {
-    
-    .Fabout{
-        margin-top: 80%;
-    }
+.mainInicio{
+    grid-area: mainInicio
 }
-@media screen and (max-width:600px) {
-    
-}
-.contenedorcontacto {
+.footerInicio{
     width: 90%;
-    display: grid;
-    grid-template-columns: 2fr;
-    grid-template-rows: auto auto auto auto;
-    grid-template-areas:
-    "Hcontact"
-    "coments"
-    "Fordatos"
-    "footcontact";
+    grid-area: footerInicio;
 }
-@media screen and (max-width:320px) {
-    .contenedorcontacto{
+.ContenedorInicio{
+    width: 90%;
+}
+.contenedorcontacto{
+    width: 90%;
+    margin: 4rem auto;
+}
+.Hcontact{
+    width: 80%;
+    grid-area: Hcontact;
+}
+.Forcoment{
+    width: 80%;
+    grid-area: Forcoment;
+}
+.footcontact{
+    width: 80%;
+    grid-area: footcontact;
+}
+@media screen and (max-width:480px) {
+    .ContenedorInicio{
+        width: 90%;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: auto auto 1fr auto;
+        grid-template-rows: auto 1fr auto;
         grid-template-areas: 
+        "headerinicio"
+        "mainInicio"
+        "footerInicio";
+    }
+}
+@media screen and (max-width:480px) {
+    .contenedorcontacto {
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr auto;
+        grid-template-areas:
         "Hcontact"
-        "coments"
-        "Fordatos"
+        "Forcoment"
         "footcontact";
     }
 }
-@media screen and (max-width:600px)
+@media screen and (max-width:480px) {
+    .ContenedorAbout {
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto 1fr;
+        grid-template-areas:
+        "HAbout"
+        "main"
+        "foto1"
+        "foto2"
+        "foto3"
+        "foto4"
+        "videonos"
+        "Fabout";
+    }
+}
