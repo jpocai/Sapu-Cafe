@@ -4,9 +4,13 @@
     box-sizing: border-box   
 }
 body {
-    background: linear-gradient(24deg, rgba(2,0,36,1) 0%, rgba(57,57,141,1) 35%, rgba(63,170,192,1) 100%);
+    background-image: url(../Varios/15507.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
     color: aliceblue;
-    padding: 3rem;
+    margin: 2rem auto;   
 }
 h1{
     font-style: normal;
@@ -14,10 +18,13 @@ h1{
     text-align: left;
     text-decoration: none;
 }
+.headerinicio{
+    width: 90%;
+    margin: 20px auto;
+}
 .menuinicial{
     padding: 2rem;
     background: radial-gradient(lightblue, rgb(81, 167, 224), rgb(34, 52, 211));
-    
 }
 .menuinicial ul{
     list-style: none;
@@ -45,22 +52,25 @@ h1{
 .menuinicial ul li:hover ul{
     display: block;
 }
+.fondoindex{
+    background-size: cover;
+}
 .intro{
     line-height: 5mm;
-    border: rgb(131, 125, 125) solid;
-    width: 600px;
+    width: 80%;
     height: 300px;
     position: relative;
     text-align: justify;
-    margin-left: 6vw;
-    top: -3vh;
-    padding: 1rem;
+    margin: 4vw auto;
+    padding: 2rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.videohome{
-    position: relative;
-    left: 60vw;
-    top: -320px;
+#carouselSlidesOnly{
+    margin: 20px auto;
+}
+.carousel{
+    display: flex;
+    display: inline-block;
 }
 h2{
     font-size: larger;
@@ -71,13 +81,13 @@ h2{
 hr{
     margin-top: 10vh;
 }
-.Productos1{
+#Productos1{
     margin-top: 6vh;
 }
 .Productos1__titulo{
     display: flex;
     margin-top: 3rem;
-    margin-left: 5vw;
+    margin: 5vw auto;
     margin-bottom: 7rem;
     font-size: large;
     font-style: italic;
@@ -95,13 +105,7 @@ hr{
     justify-content: space-around;
     margin-top: 5rem;
 }
-.sucursales li a{
-    color:darkmagenta;
-  
-}
-.sucursales li a:hover{                    
-    background-color:blanchedalmond;
-}
+
 .sucursales__img:hover{
     transform: scale(1.3, 1.3);
 }
@@ -119,19 +123,9 @@ hr{
 .menu2 li a:hover{
     background-color: aquamarine;
 }
-.contenedorAbout{
+.HAbout{
     width: 90%;
-    display: grid;
-    grid-template-columns: 2fr;
-    grid-template-rows: auto 2fr 2fr;
-    grid-template-areas:
-    "Habout Habout"
-    "main main"
-    "videonos videonos";
-}
-.Habout{
-    width: 90%;
-    grid-area: Habout;
+    margin: auto;
 }
 .main{
     background-color:rgb(80, 103, 162);
@@ -144,63 +138,51 @@ hr{
     text-align: justify;
     font-family: Georgia, 'Times New Roman', Times, serif;
     overflow: auto;
-    grid-area: main;
 }
 .videonos {
-    position: relative;
-    left: 20vw;
-    top: 50px;
     grid-area: videonos;
+    width: 90%;
+    margin: 20px auto;
 }
 .Fabout{
     margin-top: 10rem;
 }
-.Fordatos{
-    padding: 5mm;
-    color: rgb(210, 233, 221);
-    font-size: large;   
+.foto1{
+    grid-area: foto1;
+}
+.foto2{
+    grid-area: foto2;
+}
+.foto3{
+    grid-area: foto3;
+}
+.foto4{
+    grid-area: foto4;
+}
+.contGrid{
     width: 90%;
+    height: auto;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 2fr 2fr;
+    grid-gap: 2rem;
+    grid-template-areas: 
+    "foto1 videonos videonos foto2"
+    "foto3 videonos videonos foto4";
 }
 h6{
  display: flex;
  justify-content: right;
 }
-.Forcoment{
-    width: 90%;
-    grid-area: Forcoment;
-}
-.Footcontact{
-    grid-area: Footcontact;
-    width: 90%;
-}
-.Hcontact{
-    width: 90%;
-    grid-area: Hcontact;
-}
 @media screen and (max-width:320px) {
-    .contenedorAbout{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto 2fr 1fr 1fr;
-        grid-template-areas: 
-        "Habout"
-        "main"
-        "videonos";
-    }
+    
     .Fabout{
         margin-top: 80%;
     }
 }
 @media screen and (max-width:600px) {
-    .contenedorAbout{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto 2fr auto auto;
-        grid-template-areas: 
-        "Habout"
-        "main"
-        "videonos";
-    }
+    
 }
 .contenedorcontacto {
     width: 90%;
@@ -225,14 +207,4 @@ h6{
         "footcontact";
     }
 }
-@media screen and (max-width:600px) {
-    .contenedorAbout{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto 2fr 2fr auto;
-        grid-template-areas: 
-        "Hcontact"
-        "coments"
-        "Fordatos"
-        "footcontact";}
-    }
+@media screen and (max-width:600px)
