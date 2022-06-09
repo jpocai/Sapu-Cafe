@@ -26,7 +26,7 @@ body {
         text-align: center; }
         body .headerInicio .menuinicial ul li {
           font-size: 1.5rem; }
-          body .headerInicio .menuinicial ul lihover ul {
+          body .headerInicio .menuinicial ul li:hover ul {
             display: block; }
           body .headerInicio .menuinicial ul li ul {
             display: none; }
@@ -35,13 +35,13 @@ body {
             color: aquamarine;
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             font-style: bold; }
-            body .headerInicio .menuinicial ul li ahover {
+            body .headerInicio .menuinicial ul li a:hover {
               color: #9b61d2; }
   body .mainInicio {
     grid-area: mainInicio; }
     body .mainInicio .intro {
       line-height: 7mm;
-      width: 80%;
+      width: 70%;
       height: 400px;
       position: relative;
       margin: 2rem auto;
@@ -57,13 +57,10 @@ body {
     width: 90%;
     grid-area: footerInicio; }
     body .footerInicio .sucursales {
-      list-style: none;
-      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
       display: flex;
-      flex-direction: row;
       justify-content: space-around;
-      margin: 5rem auto; }
-      body .footerInicio .sucursales .sucusales__img:hover {
+      margin: 4rem auto; }
+      body .footerInicio .sucursales .sucusales__ubi:hover {
         transform: scale(1.2, 1.2); }
     body .footerInicio .menu2 {
       list-style: none;
@@ -76,3 +73,157 @@ body {
         font-size: larger; }
         body .footerInicio .menu2 li a:hover {
           background-color: aquamarine; }
+
+.ContenedorAbout {
+  width: 90%; }
+  .ContenedorAbout .HAbout {
+    width: 90%;
+    margin: auto;
+    grid-area: HAbout; }
+    .ContenedorAbout .HAbout .menuinicial {
+      padding: 2rem; }
+      .ContenedorAbout .HAbout .menuinicial ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 2rem;
+        height: auto;
+        text-align: center; }
+        .ContenedorAbout .HAbout .menuinicial ul li {
+          font-size: 1.5rem; }
+          .ContenedorAbout .HAbout .menuinicial ul li:hover ul {
+            display: block; }
+          .ContenedorAbout .HAbout .menuinicial ul li ul {
+            display: none; }
+          .ContenedorAbout .HAbout .menuinicial ul li a {
+            display: inline-block;
+            color: aquamarine;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-style: bold; }
+            .ContenedorAbout .HAbout .menuinicial ul li a:hover {
+              color: #9b61d2; }
+  .ContenedorAbout .main {
+    background-color: #5067a2;
+    line-height: 25px;
+    border: 2px black solid;
+    width: 90%;
+    height: 80%;
+    padding: 1rem;
+    margin: 2rem auto;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow: auto;
+    grid-area: main; }
+  .ContenedorAbout .contGrid {
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 2fr 2fr;
+    grid-gap: 2rem;
+    grid-template-areas: "foto1 videonos videonos foto2"
+ "foto3 videonos videonos foto4"; }
+    .ContenedorAbout .contGrid .videonos {
+      grid-area: videonos;
+      width: 90%;
+      margin: 20px auto; }
+    .ContenedorAbout .contGrid .foto1 {
+      grid-area: foto1; }
+    .ContenedorAbout .contGrid .foto2 {
+      grid-area: foto2; }
+    .ContenedorAbout .contGrid .foto3 {
+      grid-area: foto3; }
+    .ContenedorAbout .contGrid .foto4 {
+      grid-area: foto4; }
+  .ContenedorAbout .Fabout {
+    margin-top: 10rem;
+    grid-area: Fabout; }
+    .ContenedorAbout .Fabout .p-1 .menu2 {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly; }
+      .ContenedorAbout .Fabout .p-1 .menu2 li a {
+        color: black;
+        font-weight: bold;
+        font-size: larger; }
+        .ContenedorAbout .Fabout .p-1 .menu2 li a:hover {
+          background-color: aquamarine; }
+
+.contenedorcontacto {
+  width: 90%;
+  margin: 4rem auto; }
+  .contenedorcontacto .Hcontact {
+    width: 90%;
+    grid-area: Hcontact; }
+    .contenedorcontacto .Hcontact .menuinicial {
+      padding: 2rem; }
+      .contenedorcontacto .Hcontact .menuinicial ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 2rem;
+        height: auto;
+        text-align: center; }
+        .contenedorcontacto .Hcontact .menuinicial ul li {
+          font-size: 1.5rem; }
+          .contenedorcontacto .Hcontact .menuinicial ul li:hover ul {
+            display: block; }
+          .contenedorcontacto .Hcontact .menuinicial ul li ul {
+            display: none; }
+          .contenedorcontacto .Hcontact .menuinicial ul li a {
+            display: inline-block;
+            color: aquamarine;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-style: bold; }
+            .contenedorcontacto .Hcontact .menuinicial ul li a:hover {
+              color: #9b61d2; }
+  .contenedorcontacto .Forcoment {
+    width: 90%;
+    grid-area: Forcoment; }
+  .contenedorcontacto .footcontact {
+    width: 90%;
+    grid-area: footcontact; }
+    .contenedorcontacto .footcontact .sucursales {
+      display: flex;
+      justify-content: space-around;
+      margin: 4rem auto; }
+      .contenedorcontacto .footcontact .sucursales .sucusales__ubi:hover {
+        transform: scale(1.2, 1.2); }
+    .contenedorcontacto .footcontact .p-1 .menu2 {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly; }
+      .contenedorcontacto .footcontact .p-1 .menu2 li a {
+        color: black;
+        font-weight: bold;
+        font-size: larger; }
+        .contenedorcontacto .footcontact .p-1 .menu2 li a:hover {
+          background-color: aquamarine; }
+
+@media screen and (max-width: 480px) {
+  .contenedorcontacto {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: "Hcontact"
+ "Forcoment"
+ "footcontact"; } }
+
+@media screen and (max-width: 480px) {
+  .ContenedorAbout {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto 1fr;
+    grid-template-areas: "HAbout"
+ "main"
+ "foto1"
+ "foto2"
+ "foto3"
+ "foto4"
+ "videonos"
+ "Fabout"; } }

@@ -1,0 +1,14 @@
+.menu2{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    li a{
+        color: black;
+        font-weight: bold;
+        font-size: larger;
+        &:hover{
+            background-color: aquamarine;
+        }
+    }
+}

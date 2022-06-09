@@ -1,0 +1,29 @@
+.menuinicial{ 
+                padding: 2rem;
+                ul{
+                list-style: none;
+                display: flex;
+                justify-content: space-evenly;
+                padding: 2rem;
+                height: auto;
+                text-align: center;
+                    li{
+                    font-size: 1.5rem;
+                    &:hover ul{
+                        display: block;
+                        }
+                        ul{
+                            display: none;
+                        }
+                        a{
+                            display: inline-block;
+                            color: aquamarine;
+                            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                            font-style: bold;
+                            &:hover{
+                                color: rgb(155, 97, 210);
+                        }  
+                    }
+                }
+            }  
+        }      
