@@ -1,0 +1,96 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box   
+}
+body{
+    background-image: url(https://images3.alphacoders.com/912/thumb-1920-912807.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    color: aliceblue;
+    margin: 2rem auto;
+    .headerInicio{
+        width: 90%;
+        margin: 20px auto;
+        grid-area: headerInicio;
+        .menuinicial{
+            padding: 2rem;
+            ul{
+                list-style: none;
+                display: flex;
+                justify-content: space-evenly;
+                padding: 2rem;
+                height: auto;
+                text-align: center;
+                li{
+                    font-size: 1.5rem;
+                    &hover ul{
+                        display: block;
+                    }
+                    ul{
+                        display: none;
+                    }
+                    a{
+                        display: inline-block;
+                        color: aquamarine;
+                        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                        font-style: bold;
+                        &hover{
+                            color: rgb(155, 97, 210);
+                        }  
+                    }
+                }
+            }
+        }
+    } 
+    .mainInicio{
+        grid-area: mainInicio;
+        .intro{
+            line-height: 7mm;
+            width: 80%;
+            height: 400px;
+            position: relative;
+            margin: 2rem auto;
+            text-align: justify;
+            padding: 2rem;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            overflow: auto; 
+        }
+        .carousel{
+            display: flex;
+            display: inline-block;
+            margin: 2rem auto;
+        }
+    }
+    .footerInicio{
+        width: 90%;
+        grid-area: footerInicio;
+        .sucursales{
+            list-style: none;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin: 5rem auto;
+            .sucusales__img:hover{
+                transform: scale(1.2, 1.2);
+            }
+        }
+        .menu2{
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            li a{
+                color: black;
+                font-weight: bold;
+                font-size: larger;
+                &:hover{
+                    background-color: aquamarine;
+                }
+            }
+        }
+    }
+}    
