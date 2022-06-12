@@ -20,15 +20,17 @@ body{
     .mainInicio{
         grid-area: mainInicio;
         .intro{
-            line-height: 7mm;
-            width: 70%;
-            height: 400px;
-            position: relative;
+            background-color:rgb(80, 103, 162);
+            line-height: 25px;
+            border: 2px black solid;
+            width: 80%;
+            padding: 2rem;
             margin: 2rem auto;
             text-align: justify;
-            padding: 2rem;
             font-family: Georgia, 'Times New Roman', Times, serif;
             overflow: auto; 
+            opacity: 75%;
+            margin-bottom: 10rem;
         }
         .carousel{
             display: flex;
@@ -43,7 +45,7 @@ body{
             display: flex;
             justify-content: space-around;
             margin: 4rem auto;
-            .sucusales__ubi:hover {
+            .sucursales__ubi__map:hover {
                 transform: scale(1.2, 1.2);
             }
         }
@@ -70,6 +72,7 @@ body{
         font-family: Georgia, 'Times New Roman', Times, serif;
         overflow: auto;
         grid-area: main;
+        opacity: 85%;
     }
     .contGrid{
         width: 90%;
@@ -127,7 +130,7 @@ body{
             display: flex;
             justify-content: space-around;
             margin: 4rem auto;
-            .sucusales__ubi:hover{
+            .sucursales__ubi__map:hover{
                 transform: scale(1.2, 1.2);
             }
         }

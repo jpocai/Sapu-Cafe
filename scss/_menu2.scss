@@ -4,11 +4,12 @@
     flex-direction: row;
     justify-content: space-evenly;
     li a{
-        color: black;
+        color: #26b9c4fd;
         font-weight: bold;
         font-size: larger;
         &:hover{
-            background-color: aquamarine;
+            background-color: rgb(26, 36, 32);
+            border-radius: 20%;
         }
     }
 }
