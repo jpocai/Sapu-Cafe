@@ -67,15 +67,16 @@ body .mainInicio {
 
 body .mainInicio .intro {
   background-color: #5067a2;
-  line-height: 25px;
+  line-height: 30px;
+  font-size: 3rem;
   border: 2px black solid;
   width: 80%;
   padding: 2rem;
-  margin: 2rem auto;
   text-align: justify;
   font-family: Georgia, 'Times New Roman', Times, serif;
   overflow: auto;
   opacity: 75%;
+  margin: 2rem auto;
   margin-bottom: 10rem;
 }
 
@@ -87,12 +88,29 @@ body .mainInicio .carousel {
   margin: 2rem auto;
 }
 
+body .mainInicio .packs {
+  width: 90%;
+  margin: 2rem auto;
+  padding: 4rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  opacity: 85%;
+}
+
+body .mainInicio .packs .packs__1 {
+  padding: 1rem;
+}
+
 body .footerInicio {
   width: 90%;
   grid-area: footerInicio;
 }
 
-body .footerInicio .sucursales {
+body .footerInicio .sucursales, body .footerInicio .contenedorcontacto .footcontact, .contenedorcontacto body .footerInicio .footcontact {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -101,7 +119,7 @@ body .footerInicio .sucursales {
   margin: 4rem auto;
 }
 
-body .footerInicio .sucursales .sucursales__ubi__map:hover {
+body .footerInicio .sucursales .sucursales__ubi__map:hover, body .footerInicio .contenedorcontacto .footcontact .sucursales__ubi__map:hover, .contenedorcontacto body .footerInicio .footcontact .sucursales__ubi__map:hover {
   -webkit-transform: scale(1.2, 1.2);
           transform: scale(1.2, 1.2);
 }
@@ -127,7 +145,7 @@ body .footerInicio .menu2 li a {
 }
 
 body .footerInicio .menu2 li a:hover {
-  background-color: #1a2420;
+  background-color: #0d100f;
   border-radius: 20%;
 }
 
@@ -216,7 +234,7 @@ body .footerInicio .menu2 li a:hover {
   -ms-grid-column: 2;
   -ms-grid-column-span: 2;
   grid-area: videonos;
-  width: 90%;
+  width: 85%;
   margin: 20px auto;
 }
 
@@ -270,7 +288,7 @@ body .footerInicio .menu2 li a:hover {
 }
 
 .ContenedorAbout .Fabout .p-1 .menu2 li a:hover {
-  background-color: #1a2420;
+  background-color: #0d100f;
   border-radius: 20%;
 }
 
@@ -334,20 +352,6 @@ body .footerInicio .menu2 li a:hover {
   grid-area: footcontact;
 }
 
-.contenedorcontacto .footcontact .sucursales {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  margin: 4rem auto;
-}
-
-.contenedorcontacto .footcontact .sucursales .sucursales__ubi__map:hover {
-  -webkit-transform: scale(1.2, 1.2);
-          transform: scale(1.2, 1.2);
-}
-
 .contenedorcontacto .footcontact .p-1 .menu2 {
   list-style: none;
   display: -webkit-box;
@@ -369,7 +373,7 @@ body .footerInicio .menu2 li a:hover {
 }
 
 .contenedorcontacto .footcontact .p-1 .menu2 li a:hover {
-  background-color: #1a2420;
+  background-color: #0d100f;
   border-radius: 20%;
 }
 
