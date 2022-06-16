@@ -1,4 +1,6 @@
 $ancho: 90%;
+@import "menuinicial";
+@import "extends";
 * {
     margin: 0%;
     padding: 0%;
@@ -16,23 +18,12 @@ body{
         width: $ancho;
         margin: 20px auto;
         grid-area: headerInicio;
-        @import "menuinicial";
+        @include menuinicial;
     } 
     .mainInicio{
         grid-area: mainInicio;
         .intro{
-            background-color:rgb(80, 103, 162);
-            line-height: 30px;
-            font-size: 1rem;
-            border: 2px black solid;
-            width: $ancho - 10%;
-            padding: 2rem;
-            text-align: justify;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            overflow: auto; 
-            opacity: 75%;
-            margin: 2rem auto;
-            margin-bottom: 10rem;
+            @extend .intro;
         }
         .packs{
             width: $ancho;
@@ -64,21 +55,11 @@ body{
     width: $ancho;
     margin: 20px auto;
     .HAbout{
-        @import "menuinicial";
+        @include menuinicial;
     }
     .main{
-        background-color:rgb(80, 103, 162);
-        line-height: 25px;
-        border: 2px black solid;
-        width: $ancho;
-        height: 80%;
-        padding: 1rem;
-        margin: 2rem auto;
-        text-align: justify;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        overflow: auto;
-        grid-area: main;
-        opacity: 85%;
+        @extend .intro;
+        font-size: 1.5rem;
     }
     .contGrid{
         width: $ancho;
@@ -117,11 +98,51 @@ body{
         }
     }
 }
-.shopContainer{
+.shopsContainer{
     width: $ancho;
     margin: 20px auto;
-        .shopHeader{
-            @import "menuinicial";
+    .headerShop{
+            @include menuinicial;
+    }
+    .sucursales{
+        width: $ancho;
+        padding: 2rem;
+        margin: 20px auto;
+        margin-left: 28vw;   
+    }
+    .footerShop{
+        width: $ancho;
+        margin: 20px auto;
+        .p-1{
+            @import "menu2";
+        }
+    }
+}
+.prodContainer{
+    width: $ancho;
+    margin: 20px auto;
+    .headerProd{
+        @include menuinicial;
+        }
+    .productos__lista{
+        width: $ancho - 10;
+        height: 80%;
+        margin: 20px auto;
+        list-style: none;
+        ul li {
+            display: flex;
+            display: inline-block;
+            justify-content: space-between;
+            padding: 4rem;
+        }
+        
+    }
+    .footerProd{
+        width: $ancho;
+        margin: 20px auto;
+        .p-1{
+            @import "menu2";
+        }
     }
 }
 .contenedorcontacto{
@@ -130,7 +151,7 @@ body{
     .Hcontact{
             width: $ancho;
             grid-area: Hcontact;
-            @import "menuinicial";
+            @include menuinicial;
     }
     .Forcoment{
         width: $ancho;

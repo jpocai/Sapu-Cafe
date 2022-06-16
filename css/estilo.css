@@ -1,3 +1,18 @@
+.intro, body .mainInicio .intro, .ContenedorAbout .main {
+  background-color: #5067a2;
+  line-height: 30px;
+  font-size: 1.5rem;
+  border: 2px black solid;
+  width: 70%;
+  padding: 2rem;
+  text-align: justify;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  overflow: auto;
+  opacity: 75%;
+  margin: 2rem auto;
+  margin-bottom: 10rem;
+}
+
 * {
   margin: 0%;
   padding: 0%;
@@ -19,13 +34,10 @@ body .headerInicio {
   width: 90%;
   margin: 20px auto;
   grid-area: headerInicio;
-}
-
-body .headerInicio .menuinicial {
   padding: 2rem;
 }
 
-body .headerInicio .menuinicial ul {
+body .headerInicio ul {
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -38,46 +50,31 @@ body .headerInicio .menuinicial ul {
   text-align: center;
 }
 
-body .headerInicio .menuinicial ul li {
+body .headerInicio ul li {
   font-size: 1.5rem;
 }
 
-body .headerInicio .menuinicial ul li:hover ul {
+body .headerInicio ul li:hover ul {
   display: block;
 }
 
-body .headerInicio .menuinicial ul li ul {
+body .headerInicio ul li ul {
   display: none;
 }
 
-body .headerInicio .menuinicial ul li a {
+body .headerInicio ul li a {
   display: inline-block;
   color: aquamarine;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-style: bold;
 }
 
-body .headerInicio .menuinicial ul li a:hover {
+body .headerInicio ul li a:hover {
   color: #9b61d2;
 }
 
 body .mainInicio {
   grid-area: mainInicio;
-}
-
-body .mainInicio .intro {
-  background-color: #5067a2;
-  line-height: 30px;
-  font-size: 1rem;
-  border: 2px black solid;
-  width: 80%;
-  padding: 2rem;
-  text-align: justify;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  overflow: auto;
-  opacity: 75%;
-  margin: 2rem auto;
-  margin-bottom: 10rem;
 }
 
 body .mainInicio .packs {
@@ -146,11 +143,11 @@ body .footerInicio .menu2 li a:hover {
   margin: 20px auto;
 }
 
-.ContenedorAbout .HAbout .menuinicial {
+.ContenedorAbout .HAbout {
   padding: 2rem;
 }
 
-.ContenedorAbout .HAbout .menuinicial ul {
+.ContenedorAbout .HAbout ul {
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -163,42 +160,31 @@ body .footerInicio .menu2 li a:hover {
   text-align: center;
 }
 
-.ContenedorAbout .HAbout .menuinicial ul li {
+.ContenedorAbout .HAbout ul li {
   font-size: 1.5rem;
 }
 
-.ContenedorAbout .HAbout .menuinicial ul li:hover ul {
+.ContenedorAbout .HAbout ul li:hover ul {
   display: block;
 }
 
-.ContenedorAbout .HAbout .menuinicial ul li ul {
+.ContenedorAbout .HAbout ul li ul {
   display: none;
 }
 
-.ContenedorAbout .HAbout .menuinicial ul li a {
+.ContenedorAbout .HAbout ul li a {
   display: inline-block;
   color: aquamarine;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-style: bold;
 }
 
-.ContenedorAbout .HAbout .menuinicial ul li a:hover {
+.ContenedorAbout .HAbout ul li a:hover {
   color: #9b61d2;
 }
 
 .ContenedorAbout .main {
-  background-color: #5067a2;
-  line-height: 25px;
-  border: 2px black solid;
-  width: 90%;
-  height: 80%;
-  padding: 1rem;
-  margin: 2rem auto;
-  text-align: justify;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  overflow: auto;
-  grid-area: main;
-  opacity: 85%;
+  font-size: 1.5rem;
 }
 
 .ContenedorAbout .contGrid {
@@ -212,8 +198,7 @@ body .footerInicio .menu2 li a:hover {
   -ms-grid-rows: 2fr 2fr;
       grid-template-rows: 2fr 2fr;
   grid-gap: 2rem;
-      grid-template-areas: "foto1 videonos videonos foto2"
- "foto3 videonos videonos foto4";
+      grid-template-areas: "foto1 videonos videonos foto2" "foto3 videonos videonos foto4";
 }
 
 .ContenedorAbout .contGrid .videonos {
@@ -280,16 +265,16 @@ body .footerInicio .menu2 li a:hover {
   border-radius: 20%;
 }
 
-.shopContainer {
+.shopsContainer {
   width: 90%;
   margin: 20px auto;
 }
 
-.shopContainer .shopHeader .menuinicial {
+.shopsContainer .headerShop {
   padding: 2rem;
 }
 
-.shopContainer .shopHeader .menuinicial ul {
+.shopsContainer .headerShop ul {
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -302,27 +287,157 @@ body .footerInicio .menu2 li a:hover {
   text-align: center;
 }
 
-.shopContainer .shopHeader .menuinicial ul li {
+.shopsContainer .headerShop ul li {
   font-size: 1.5rem;
 }
 
-.shopContainer .shopHeader .menuinicial ul li:hover ul {
+.shopsContainer .headerShop ul li:hover ul {
   display: block;
 }
 
-.shopContainer .shopHeader .menuinicial ul li ul {
+.shopsContainer .headerShop ul li ul {
   display: none;
 }
 
-.shopContainer .shopHeader .menuinicial ul li a {
+.shopsContainer .headerShop ul li a {
   display: inline-block;
   color: aquamarine;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-style: bold;
 }
 
-.shopContainer .shopHeader .menuinicial ul li a:hover {
+.shopsContainer .headerShop ul li a:hover {
   color: #9b61d2;
+}
+
+.shopsContainer .sucursales {
+  width: 90%;
+  padding: 2rem;
+  margin: 20px auto;
+  margin-left: 28vw;
+}
+
+.shopsContainer .footerShop {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.shopsContainer .footerShop .p-1 .menu2 {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.shopsContainer .footerShop .p-1 .menu2 li a {
+  color: #26b9c4fd;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.shopsContainer .footerShop .p-1 .menu2 li a:hover {
+  background-color: #0d100f;
+  border-radius: 20%;
+}
+
+.prodContainer {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.prodContainer .headerProd {
+  padding: 2rem;
+}
+
+.prodContainer .headerProd ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 2rem;
+  height: auto;
+  text-align: center;
+}
+
+.prodContainer .headerProd ul li {
+  font-size: 1.5rem;
+}
+
+.prodContainer .headerProd ul li:hover ul {
+  display: block;
+}
+
+.prodContainer .headerProd ul li ul {
+  display: none;
+}
+
+.prodContainer .headerProd ul li a {
+  display: inline-block;
+  color: aquamarine;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: bold;
+}
+
+.prodContainer .headerProd ul li a:hover {
+  color: #9b61d2;
+}
+
+.prodContainer .productos__lista {
+  width: 80%;
+  height: 80%;
+  margin: 20px auto;
+  list-style: none;
+}
+
+.prodContainer .productos__lista ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: inline-block;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 4rem;
+}
+
+.prodContainer .footerProd {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.prodContainer .footerProd .p-1 .menu2 {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.prodContainer .footerProd .p-1 .menu2 li a {
+  color: #26b9c4fd;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.prodContainer .footerProd .p-1 .menu2 li a:hover {
+  background-color: #0d100f;
+  border-radius: 20%;
 }
 
 .contenedorcontacto {
@@ -333,13 +448,10 @@ body .footerInicio .menu2 li a:hover {
 .contenedorcontacto .Hcontact {
   width: 90%;
   grid-area: Hcontact;
-}
-
-.contenedorcontacto .Hcontact .menuinicial {
   padding: 2rem;
 }
 
-.contenedorcontacto .Hcontact .menuinicial ul {
+.contenedorcontacto .Hcontact ul {
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -352,26 +464,26 @@ body .footerInicio .menu2 li a:hover {
   text-align: center;
 }
 
-.contenedorcontacto .Hcontact .menuinicial ul li {
+.contenedorcontacto .Hcontact ul li {
   font-size: 1.5rem;
 }
 
-.contenedorcontacto .Hcontact .menuinicial ul li:hover ul {
+.contenedorcontacto .Hcontact ul li:hover ul {
   display: block;
 }
 
-.contenedorcontacto .Hcontact .menuinicial ul li ul {
+.contenedorcontacto .Hcontact ul li ul {
   display: none;
 }
 
-.contenedorcontacto .Hcontact .menuinicial ul li a {
+.contenedorcontacto .Hcontact ul li a {
   display: inline-block;
   color: aquamarine;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-style: bold;
 }
 
-.contenedorcontacto .Hcontact .menuinicial ul li a:hover {
+.contenedorcontacto .Hcontact ul li a:hover {
   color: #9b61d2;
 }
 
@@ -433,9 +545,7 @@ body .footerInicio .menu2 li a:hover {
         grid-template-columns: 1fr;
     -ms-grid-rows: auto 1fr auto;
         grid-template-rows: auto 1fr auto;
-        grid-template-areas: "Hcontact"
- "Forcoment"
- "footcontact";
+        grid-template-areas: "Hcontact" "Forcoment" "footcontact";
   }
 }
 
@@ -448,14 +558,7 @@ body .footerInicio .menu2 li a:hover {
         grid-template-columns: 1fr;
     -ms-grid-rows: auto auto auto 1fr;
         grid-template-rows: auto auto auto 1fr;
-        grid-template-areas: "HAbout"
- "main"
- "foto1"
- "foto2"
- "foto3"
- "foto4"
- "videonos"
- "Fabout";
+        grid-template-areas: "HAbout" "main" "foto1" "foto2" "foto3" "foto4" "videonos" "Fabout";
   }
 }
 /*# sourceMappingURL=estilo.css.map */
