@@ -80,14 +80,6 @@ body .mainInicio .intro {
   margin-bottom: 10rem;
 }
 
-body .mainInicio .carousel {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  display: inline-block;
-  margin: 2rem auto;
-}
-
 body .mainInicio .packs {
   width: 90%;
   margin: 2rem auto;
@@ -110,7 +102,7 @@ body .footerInicio {
   grid-area: footerInicio;
 }
 
-body .footerInicio .sucursales, body .footerInicio .contenedorcontacto .footcontact, .contenedorcontacto body .footerInicio .footcontact {
+body .footerInicio .sucursales {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -119,7 +111,7 @@ body .footerInicio .sucursales, body .footerInicio .contenedorcontacto .footcont
   margin: 4rem auto;
 }
 
-body .footerInicio .sucursales .sucursales__ubi__map:hover, body .footerInicio .contenedorcontacto .footcontact .sucursales__ubi__map:hover, .contenedorcontacto body .footerInicio .footcontact .sucursales__ubi__map:hover {
+body .footerInicio .sucursales .sucursales__ubi__map:hover {
   -webkit-transform: scale(1.2, 1.2);
           transform: scale(1.2, 1.2);
 }
@@ -151,12 +143,7 @@ body .footerInicio .menu2 li a:hover {
 
 .ContenedorAbout {
   width: 90%;
-}
-
-.ContenedorAbout .HAbout {
-  width: 90%;
-  margin: auto;
-  grid-area: HAbout;
+  margin: 20px auto;
 }
 
 .ContenedorAbout .HAbout .menuinicial {
@@ -292,6 +279,51 @@ body .footerInicio .menu2 li a:hover {
   border-radius: 20%;
 }
 
+.shopcontainer {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.shopcontainer .shopheader .menuinicial {
+  padding: 2rem;
+}
+
+.shopcontainer .shopheader .menuinicial ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 2rem;
+  height: auto;
+  text-align: center;
+}
+
+.shopcontainer .shopheader .menuinicial ul li {
+  font-size: 1.5rem;
+}
+
+.shopcontainer .shopheader .menuinicial ul li:hover ul {
+  display: block;
+}
+
+.shopcontainer .shopheader .menuinicial ul li ul {
+  display: none;
+}
+
+.shopcontainer .shopheader .menuinicial ul li a {
+  display: inline-block;
+  color: aquamarine;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: bold;
+}
+
+.shopcontainer .shopheader .menuinicial ul li a:hover {
+  color: #9b61d2;
+}
+
 .contenedorcontacto {
   width: 90%;
   margin: 4rem auto;
@@ -350,6 +382,20 @@ body .footerInicio .menu2 li a:hover {
 .contenedorcontacto .footcontact {
   width: 90%;
   grid-area: footcontact;
+}
+
+.contenedorcontacto .footcontact .sucursales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 4rem auto;
+}
+
+.contenedorcontacto .footcontact .sucursales .sucursales__ubi__map:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
 }
 
 .contenedorcontacto .footcontact .p-1 .menu2 {

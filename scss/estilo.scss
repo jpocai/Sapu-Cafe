@@ -34,11 +34,6 @@ body{
             margin: 2rem auto;
             margin-bottom: 10rem;
         }
-        .carousel{
-            display: flex;
-            display: inline-block;
-            margin: 2rem auto;
-        }
         .packs{
             width: $ancho;
             margin: 2rem auto;
@@ -67,10 +62,8 @@ body{
 }
 .ContenedorAbout{
     width: $ancho;
+    margin: 20px auto;
     .HAbout{
-        width: $ancho;
-        margin: auto;
-        grid-area: HAbout;
         @import "menuinicial";
     }
     .main{
@@ -124,6 +117,13 @@ body{
         }
     }
 }
+.shopcontainer{
+    width: $ancho;
+    margin: 20px auto;
+        .shopheader{
+            @import "menuinicial";
+    }
+}
 .contenedorcontacto{
     width: $ancho;
     margin: 4rem auto;
@@ -139,7 +139,14 @@ body{
     .footcontact{
         width: $ancho;
         grid-area: footcontact;
-        @extend .sucursales;
+        .sucursales{
+            display: flex;
+            justify-content: space-around;
+            margin: 4rem auto;
+            .sucursales__ubi__map:hover {
+                transform: scale(1.2, 1.2);
+            }
+        }
         .p-1{
             @import "menu2";
         }
