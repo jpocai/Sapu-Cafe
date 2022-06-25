@@ -95,13 +95,15 @@ body{
             @include menuinicial;
     }
     .sucursales{
-        width: $ancho;
+        width: $ancho - 20;
         padding: 2rem;
-        margin: 20px auto;
-        margin-left: 28vw;
-        .sucursales__ubi__maps:hover {
+        margin: 10px auto;
+            .sucursales__ubi__maps{
+                margin-left: 12vw;
+            }
+            .sucursales__ubi__maps:hover {
             transform: scale(1.1, 1.1);
-        }   
+            }   
     }
     .footerShop{
         width: $ancho;

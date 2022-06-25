@@ -1,12 +1,12 @@
 .intro, body .mainInicio .intro, .ContenedorAbout .main {
   background-color: #5067a2;
   line-height: 30px;
-  font-size: 1rem;
+  font-size: 1.5rem;
   border: 2px black solid;
   width: 70%;
   padding: 2rem;
   text-align: justify;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Satisfy', cursive;
   overflow: auto;
   opacity: 75%;
   margin: 2rem auto;
@@ -51,15 +51,7 @@ body .headerInicio ul {
 }
 
 body .headerInicio ul li {
-  font-size: 1.5rem;
-}
-
-body .headerInicio ul li:hover ul {
-  display: block;
-}
-
-body .headerInicio ul li ul {
-  display: none;
+  font-size: 1.7rem;
 }
 
 body .headerInicio ul li a {
@@ -144,15 +136,7 @@ body .footerInicio .menu2 li a:hover {
 }
 
 .ContenedorAbout .HAbout ul li {
-  font-size: 1.5rem;
-}
-
-.ContenedorAbout .HAbout ul li:hover ul {
-  display: block;
-}
-
-.ContenedorAbout .HAbout ul li ul {
-  display: none;
+  font-size: 1.7rem;
 }
 
 .ContenedorAbout .HAbout ul li a {
@@ -271,15 +255,7 @@ body .footerInicio .menu2 li a:hover {
 }
 
 .shopsContainer .headerShop ul li {
-  font-size: 1.5rem;
-}
-
-.shopsContainer .headerShop ul li:hover ul {
-  display: block;
-}
-
-.shopsContainer .headerShop ul li ul {
-  display: none;
+  font-size: 1.7rem;
 }
 
 .shopsContainer .headerShop ul li a {
@@ -294,10 +270,13 @@ body .footerInicio .menu2 li a:hover {
 }
 
 .shopsContainer .sucursales {
-  width: 90%;
+  width: 70%;
   padding: 2rem;
-  margin: 20px auto;
-  margin-left: 28vw;
+  margin: 10px auto;
+}
+
+.shopsContainer .sucursales .sucursales__ubi__maps {
+  margin-left: 12vw;
 }
 
 .shopsContainer .sucursales .sucursales__ubi__maps:hover {
@@ -358,15 +337,7 @@ body .footerInicio .menu2 li a:hover {
 }
 
 .prodContainer .headerProd ul li {
-  font-size: 1.5rem;
-}
-
-.prodContainer .headerProd ul li:hover ul {
-  display: block;
-}
-
-.prodContainer .headerProd ul li ul {
-  display: none;
+  font-size: 1.7rem;
 }
 
 .prodContainer .headerProd ul li a {
@@ -453,15 +424,7 @@ body .footerInicio .menu2 li a:hover {
 }
 
 .contenedorcontacto .Hcontact ul li {
-  font-size: 1.5rem;
-}
-
-.contenedorcontacto .Hcontact ul li:hover ul {
-  display: block;
-}
-
-.contenedorcontacto .Hcontact ul li ul {
-  display: none;
+  font-size: 1.7rem;
 }
 
 .contenedorcontacto .Hcontact ul li a {
