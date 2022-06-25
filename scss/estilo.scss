@@ -25,18 +25,8 @@ body{
         .intro{
             @extend .intro;
         }
-        .packs{
-            width: $ancho;
-            margin: 2rem auto;
-            padding: 4rem auto;
-            display: flex;
-            justify-content: space-evenly;
-            opacity: 85%;
-            .packs__1{
-                padding: 1rem;
-            }
-        }
     }
+    
     .footerInicio{
         width: $ancho;
         grid-area: footerInicio;
@@ -108,7 +98,10 @@ body{
         width: $ancho;
         padding: 2rem;
         margin: 20px auto;
-        margin-left: 28vw;   
+        margin-left: 28vw;
+        .sucursales__ubi__maps:hover {
+            transform: scale(1.1, 1.1);
+        }   
     }
     .footerShop{
         width: $ancho;

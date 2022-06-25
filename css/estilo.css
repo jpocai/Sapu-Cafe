@@ -1,12 +1,12 @@
 .intro, body .mainInicio .intro, .ContenedorAbout .main {
   background-color: #5067a2;
   line-height: 30px;
-  font-size: 1.5rem;
+  font-size: 1rem;
   border: 2px black solid;
   width: 70%;
   padding: 2rem;
   text-align: justify;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   overflow: auto;
   opacity: 75%;
   margin: 2rem auto;
@@ -77,21 +77,8 @@ body .mainInicio {
   grid-area: mainInicio;
 }
 
-body .mainInicio .packs {
+body .carousel-inner {
   width: 90%;
-  margin: 2rem auto;
-  padding: 4rem auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  opacity: 85%;
-}
-
-body .mainInicio .packs .packs__1 {
-  padding: 1rem;
 }
 
 body .footerInicio {
@@ -315,6 +302,11 @@ body .footerInicio .menu2 li a:hover {
   padding: 2rem;
   margin: 20px auto;
   margin-left: 28vw;
+}
+
+.shopsContainer .sucursales .sucursales__ubi__maps:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
 }
 
 .shopsContainer .footerShop {
