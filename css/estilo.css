@@ -1,12 +1,12 @@
 .intro, body .mainInicio .intro, .ContenedorAbout .main {
   background-color: #5067a2;
   line-height: 30px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   border: 2px black solid;
-  width: 70%;
+  width: 80%;
   padding: 2rem;
   text-align: justify;
-  font-family: 'Satisfy', cursive;
+  font-family: 'Josefin Sans', sans-serif;
   overflow: auto;
   opacity: 75%;
   margin: 2rem auto;
@@ -56,7 +56,7 @@ body .headerInicio ul li {
 
 body .headerInicio ul li a {
   display: inline-block;
-  color: aquamarine;
+  color: #7fffd4;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-style: bold;
 }
@@ -67,6 +67,16 @@ body .headerInicio ul li a:hover {
 
 body .mainInicio {
   grid-area: mainInicio;
+}
+
+body .mainInicio .packs {
+  width: 70%;
+  margin-left: 15vw;
+}
+
+body .mainInicio .packs .packs__1 {
+  margin: 20px auto;
+  padding: 2rem;
 }
 
 body .footerInicio {
@@ -103,7 +113,7 @@ body .footerInicio .menu2 {
 }
 
 body .footerInicio .menu2 li a {
-  color: #26b9c4fd;
+  color: #7fffd4;
   font-weight: bold;
   font-size: larger;
 }
@@ -141,7 +151,7 @@ body .footerInicio .menu2 li a:hover {
 
 .ContenedorAbout .HAbout ul li a {
   display: inline-block;
-  color: aquamarine;
+  color: #7fffd4;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-style: bold;
 }
@@ -151,7 +161,7 @@ body .footerInicio .menu2 li a:hover {
 }
 
 .ContenedorAbout .main {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .ContenedorAbout .contGrid {
@@ -222,7 +232,7 @@ body .footerInicio .menu2 li a:hover {
 }
 
 .ContenedorAbout .Fabout .p-1 .menu2 li a {
-  color: #26b9c4fd;
+  color: #7fffd4;
   font-weight: bold;
   font-size: larger;
 }
@@ -260,7 +270,7 @@ body .footerInicio .menu2 li a:hover {
 
 .shopsContainer .headerShop ul li a {
   display: inline-block;
-  color: aquamarine;
+  color: #7fffd4;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-style: bold;
 }
@@ -304,7 +314,7 @@ body .footerInicio .menu2 li a:hover {
 }
 
 .shopsContainer .footerShop .p-1 .menu2 li a {
-  color: #26b9c4fd;
+  color: #7fffd4;
   font-weight: bold;
   font-size: larger;
 }
@@ -342,7 +352,7 @@ body .footerInicio .menu2 li a:hover {
 
 .prodContainer .headerProd ul li a {
   display: inline-block;
-  color: aquamarine;
+  color: #7fffd4;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-style: bold;
 }
@@ -389,7 +399,7 @@ body .footerInicio .menu2 li a:hover {
 }
 
 .prodContainer .footerProd .p-1 .menu2 li a {
-  color: #26b9c4fd;
+  color: #7fffd4;
   font-weight: bold;
   font-size: larger;
 }
@@ -429,7 +439,7 @@ body .footerInicio .menu2 li a:hover {
 
 .contenedorcontacto .Hcontact ul li a {
   display: inline-block;
-  color: aquamarine;
+  color: #7fffd4;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-style: bold;
 }
@@ -477,7 +487,7 @@ body .footerInicio .menu2 li a:hover {
 }
 
 .contenedorcontacto .footcontact .p-1 .menu2 li a {
-  color: #26b9c4fd;
+  color: #7fffd4;
   font-weight: bold;
   font-size: larger;
 }

@@ -25,7 +25,16 @@ body{
         .intro{
             @extend .intro;
         }
-    }
+        .packs{
+            width: $ancho - 20;
+            margin-left: 15vw;
+                .packs__1{
+                    margin: 20px auto;
+                    padding: 2rem;
+                }
+                
+            }
+        }
     
     .footerInicio{
         width: $ancho;
@@ -49,7 +58,7 @@ body{
     }
     .main{
         @extend .intro;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     .contGrid{
         width: $ancho;
