@@ -38,6 +38,7 @@ body .headerInicio {
 }
 
 body .headerInicio ul {
+  z-index: -1;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -48,6 +49,12 @@ body .headerInicio ul {
   padding: 2rem;
   height: auto;
   text-align: center;
+  background-color: #07353d;
+  opacity: 80%;
+}
+
+body .headerInicio ul .logo {
+  z-index: 1;
 }
 
 body .headerInicio ul li {
@@ -57,8 +64,9 @@ body .headerInicio ul li {
 body .headerInicio ul li a {
   display: inline-block;
   color: #7fffd4;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New        Roman', serif;
   font-style: bold;
+  margin-top: 3vh;
 }
 
 body .headerInicio ul li a:hover {
@@ -81,6 +89,7 @@ body .mainInicio .packs .packs__1 {
 
 body .footerInicio {
   width: 90%;
+  margin: 20px auto;
   grid-area: footerInicio;
 }
 
@@ -90,7 +99,7 @@ body .footerInicio .sucursales {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin: 4rem auto;
+  margin: 3rem auto;
 }
 
 body .footerInicio .sucursales .sucursales__ubi__map:hover {
@@ -110,6 +119,8 @@ body .footerInicio .menu2 {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  background-color: #07353d;
+  opacity: 80%;
 }
 
 body .footerInicio .menu2 li a {
@@ -119,8 +130,6 @@ body .footerInicio .menu2 li a {
 }
 
 body .footerInicio .menu2 li a:hover {
-  background-color: #0d100f;
-  border-radius: 20%;
   color: #e090ef;
 }
 
@@ -134,6 +143,7 @@ body .footerInicio .menu2 li a:hover {
 }
 
 .ContenedorAbout .HAbout ul {
+  z-index: -1;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -144,6 +154,12 @@ body .footerInicio .menu2 li a:hover {
   padding: 2rem;
   height: auto;
   text-align: center;
+  background-color: #07353d;
+  opacity: 80%;
+}
+
+.ContenedorAbout .HAbout ul .logo {
+  z-index: 1;
 }
 
 .ContenedorAbout .HAbout ul li {
@@ -153,8 +169,9 @@ body .footerInicio .menu2 li a:hover {
 .ContenedorAbout .HAbout ul li a {
   display: inline-block;
   color: #7fffd4;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New        Roman', serif;
   font-style: bold;
+  margin-top: 3vh;
 }
 
 .ContenedorAbout .HAbout ul li a:hover {
@@ -230,6 +247,8 @@ body .footerInicio .menu2 li a:hover {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  background-color: #07353d;
+  opacity: 80%;
 }
 
 .ContenedorAbout .Fabout .p-1 .menu2 li a {
@@ -239,8 +258,6 @@ body .footerInicio .menu2 li a:hover {
 }
 
 .ContenedorAbout .Fabout .p-1 .menu2 li a:hover {
-  background-color: #0d100f;
-  border-radius: 20%;
   color: #e090ef;
 }
 
@@ -254,6 +271,7 @@ body .footerInicio .menu2 li a:hover {
 }
 
 .prodContainer .headerProd ul {
+  z-index: -1;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -264,6 +282,12 @@ body .footerInicio .menu2 li a:hover {
   padding: 2rem;
   height: auto;
   text-align: center;
+  background-color: #07353d;
+  opacity: 80%;
+}
+
+.prodContainer .headerProd ul .logo {
+  z-index: 1;
 }
 
 .prodContainer .headerProd ul li {
@@ -273,8 +297,9 @@ body .footerInicio .menu2 li a:hover {
 .prodContainer .headerProd ul li a {
   display: inline-block;
   color: #7fffd4;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New        Roman', serif;
   font-style: bold;
+  margin-top: 3vh;
 }
 
 .prodContainer .headerProd ul li a:hover {
@@ -315,6 +340,8 @@ body .footerInicio .menu2 li a:hover {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  background-color: #07353d;
+  opacity: 80%;
 }
 
 .prodContainer .footerProd .p-1 .menu2 li a {
@@ -324,8 +351,6 @@ body .footerInicio .menu2 li a:hover {
 }
 
 .prodContainer .footerProd .p-1 .menu2 li a:hover {
-  background-color: #0d100f;
-  border-radius: 20%;
   color: #e090ef;
 }
 
@@ -339,6 +364,7 @@ body .footerInicio .menu2 li a:hover {
 }
 
 .shopsContainer .headerShop ul {
+  z-index: -1;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -349,6 +375,12 @@ body .footerInicio .menu2 li a:hover {
   padding: 2rem;
   height: auto;
   text-align: center;
+  background-color: #07353d;
+  opacity: 80%;
+}
+
+.shopsContainer .headerShop ul .logo {
+  z-index: 1;
 }
 
 .shopsContainer .headerShop ul li {
@@ -358,8 +390,9 @@ body .footerInicio .menu2 li a:hover {
 .shopsContainer .headerShop ul li a {
   display: inline-block;
   color: #7fffd4;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New        Roman', serif;
   font-style: bold;
+  margin-top: 3vh;
 }
 
 .shopsContainer .headerShop ul li a:hover {
@@ -399,6 +432,8 @@ body .footerInicio .menu2 li a:hover {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  background-color: #07353d;
+  opacity: 80%;
 }
 
 .shopsContainer .footerShop .p-1 .menu2 li a {
@@ -408,14 +443,12 @@ body .footerInicio .menu2 li a:hover {
 }
 
 .shopsContainer .footerShop .p-1 .menu2 li a:hover {
-  background-color: #0d100f;
-  border-radius: 20%;
   color: #e090ef;
 }
 
 .contenedorcontacto {
   width: 90%;
-  margin: 2rem auto;
+  margin: 20px auto;
 }
 
 .contenedorcontacto .Hcontact {
@@ -425,6 +458,7 @@ body .footerInicio .menu2 li a:hover {
 }
 
 .contenedorcontacto .Hcontact ul {
+  z-index: -1;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -435,6 +469,12 @@ body .footerInicio .menu2 li a:hover {
   padding: 2rem;
   height: auto;
   text-align: center;
+  background-color: #07353d;
+  opacity: 80%;
+}
+
+.contenedorcontacto .Hcontact ul .logo {
+  z-index: 1;
 }
 
 .contenedorcontacto .Hcontact ul li {
@@ -444,8 +484,9 @@ body .footerInicio .menu2 li a:hover {
 .contenedorcontacto .Hcontact ul li a {
   display: inline-block;
   color: #7fffd4;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New        Roman', serif;
   font-style: bold;
+  margin-top: 3vh;
 }
 
 .contenedorcontacto .Hcontact ul li a:hover {
@@ -455,7 +496,12 @@ body .footerInicio .menu2 li a:hover {
 .contenedorcontacto .Forcoment {
   width: 90%;
   padding: 5rem;
+  background-color: #07353d;
   grid-area: Forcoment;
+}
+
+.contenedorcontacto .Forcoment .btn {
+  margin-left: 4rem;
 }
 
 .contenedorcontacto .footcontact {
@@ -475,6 +521,8 @@ body .footerInicio .menu2 li a:hover {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  background-color: #07353d;
+  opacity: 80%;
 }
 
 .contenedorcontacto .footcontact .p-1 .menu2 li a {
@@ -484,8 +532,6 @@ body .footerInicio .menu2 li a:hover {
 }
 
 .contenedorcontacto .footcontact .p-1 .menu2 li a:hover {
-  background-color: #0d100f;
-  border-radius: 20%;
   color: #e090ef;
 }
 
