@@ -536,7 +536,7 @@ body .footerInicio .menu2 li a:hover {
   color: #e090ef;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 320px) {
   .contenedorcontacto {
     width: 90%;
     display: -ms-grid;
