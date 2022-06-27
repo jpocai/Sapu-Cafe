@@ -188,8 +188,6 @@ body{
         "Forcoment"
         "footcontact";
     }
-}
-@media screen and (max-width:480px) {
     .ContenedorAbout {
         width: $ancho;
         display: grid;
@@ -204,5 +202,8 @@ body{
         "foto4"
         "videonos"
         "Fabout";
-    }    
+    } 
+}
+@media screen and (max-width:1280px) {
+       
 }     
