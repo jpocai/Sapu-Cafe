@@ -29,7 +29,7 @@ body{
             width: $ancho - 20;
             margin-left: 15vw;
                 .packs__1{
-                    margin: 20px auto;
+                    margin: 10px auto;
                     padding: 2rem;
                 }
                 
@@ -97,6 +97,33 @@ body{
         }
     }
 }
+.prodContainer{
+    width: $ancho;
+    margin: 20px auto;
+    .headerProd{
+        @include menuinicial;
+        }
+    .productos{
+        width: $ancho;
+        display: flex;
+        justify-content: space-between;
+        margin: 7rem auto;
+        
+        .card{
+           color: navy;
+           text-align: center;
+           text-decoration:underline;
+           
+        }
+    }
+    .footerProd{
+        width: $ancho;
+        margin: 20px auto;
+        .p-1{
+            @import "menu2";
+        }
+    }
+}
 .shopsContainer{
     width: $ancho;
     margin: 20px auto;
@@ -104,11 +131,12 @@ body{
             @include menuinicial;
     }
     .sucursales{
-        width: $ancho - 20;
-        padding: 2rem;
+        width: $ancho - 10;
+        padding: 3rem;
         margin: 10px auto;
             .sucursales__ubi__maps{
-                margin-left: 12vw;
+                margin-left: 18vw;
+                padding: 1rem;
             }
             .sucursales__ubi__maps:hover {
             transform: scale(1.1, 1.1);
@@ -122,36 +150,9 @@ body{
         }
     }
 }
-.prodContainer{
-    width: $ancho;
-    margin: 20px auto;
-    .headerProd{
-        @include menuinicial;
-        }
-    .productos__lista{
-        width: $ancho - 10;
-        height: 80%;
-        margin: 20px auto;
-        list-style: none;
-        ul li {
-            display: flex;
-            display: inline-block;
-            justify-content: space-between;
-            padding: 4rem;
-        }
-        
-    }
-    .footerProd{
-        width: $ancho;
-        margin: 20px auto;
-        .p-1{
-            @import "menu2";
-        }
-    }
-}
 .contenedorcontacto{
     width: $ancho;
-    margin: 4rem auto;
+    margin: 2rem auto;
     .Hcontact{
             width: $ancho;
             grid-area: Hcontact;
@@ -159,19 +160,12 @@ body{
     }
     .Forcoment{
         width: $ancho;
+        padding: 5rem;
         grid-area: Forcoment;
     }
     .footcontact{
         width: $ancho;
         grid-area: footcontact;
-        .sucursales{
-            display: flex;
-            justify-content: space-around;
-            margin: 4rem auto;
-            .sucursales__ubi__map:hover {
-                transform: scale(1.2, 1.2);
-            }
-        }
         .p-1{
             @import "menu2";
         }
