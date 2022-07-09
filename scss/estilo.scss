@@ -32,18 +32,16 @@ body{
                                 margin: 10px auto;
                                 padding: 2rem;
                                 width: 18rem;
-                            }
-                            
+                            }    
                     }
                     .videoIntro{
                         margin: 2rem auto;
-                        height: fit-content;
                         .videonos{
                             margin: 6rem auto;
                             display: flex;
                             justify-content: center;
-                            height: 30rem;
-                            width: 80rem;
+                            height: 25rem;
+                            width: 70rem;
                         }
                     }
                 }         
@@ -55,12 +53,11 @@ body{
                             display: flex;
                             justify-content: space-around;
                             margin: 6rem auto;
-                                .sucursal__ubi:hover {
-                                    transform: scale(1.2,1.2);
-                                }
                         }
+                    }
+                    .p-1{
+                        @import "menu2";
                     }       
-                @import "menu2";
             }
         }
         .ContenedorAbout{
@@ -109,32 +106,6 @@ body{
                     @import "menu2";
                 }
             }
-        }
-        .shopsContainer{
-            width: $ancho + 10;
-            margin: 20px auto;
-                .headerShop{
-                    @include menuinicial;
-                }
-                .sucursales{
-                    width: $ancho - 10;
-                    padding: 3rem;
-                    margin: 10px auto;
-                        .sucursales__ubi__maps{
-                            margin-left: 12rem;
-                            padding: 1rem;
-                        }
-                        .sucursales__ubi__maps:hover {
-                        transform: scale(1.1, 1.1);
-                        }   
-                }
-                .footerShop{
-                    width: $ancho;
-                    margin: 20px auto;
-                    .p-1{
-                        @import "menu2";
-                    }
-                }
         }
         .contenedorcontacto{
             width: $ancho + 10;
