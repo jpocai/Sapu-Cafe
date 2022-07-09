@@ -15,18 +15,35 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap" rel="stylesheet">
 </head>
-<body class="ContenedorInicio">
+<body class="contenedorInicio">
     <header class="headerInicio">
-        <nav class="menuinicial animate__animated animate__bounceInLeft">
-            <ul>
-                <img class="Logo" src="./Images/favicon_io/Logo1.png" alt="LogoSapuCafe">
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./AboutUs.html">Nosotros</a></li>
-                <li><a href="./Productos.html">Productos</a></li>
-                <li><a href="./shops.html">Locales</a></li>
-                <li><a href="./ContactUs.html">Contacto</a></li>
+      <nav class="navbar navbar-expand-lg" style="background-color: #07353d;">
+        <div class="container-fluid">
+          <a class="navbar-brand"><img class="Logo" src="./Images/favicon_io/Logo1.png" alt="LogoSapuCafe"></a>
+          <button class="navbar-toggler" type="button-info" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mx-auto mb-1 mb-lg-1 fs-2 p-2 fw-normal">
+              <li class="nav-item">
+                <a class="nav-link text-info" aria-current="page" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-info" href="./aboutUs.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-info" href="./Productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-info" href="./shops.html">Locales</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-info" href="./contactUs.html">Contacto</a>
+              </li>
             </ul>
-        </nav>
+          </div>
+        </div>
+      </nav>
     </header>
     <main class="mainInicio">
         <section>
@@ -48,14 +65,18 @@
         </div>
     </section>  
     <hr>
+    <section class="videoIntro">
+      <div class="videonos">
+        <iframe src="https://www.youtube.com/embed/df3JeXVWYWA" title="YouTube video player" frameborder="1" width="50%" height="100%" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <hr>
+    </section>
     </main>
     <footer class="footerInicio">
-        <section class="sucursales">
-            <div class="sucursales__ubi">
-                <iframe class="sucursales__ubi__map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1644.2568278953343!2d-58.485850970187904!3d-34.48985999623873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb175273d92df%3A0x407cc59eefa91315!2sAvenida%20del%20Libertador%20General%20San%20Mart%C3%ADn%2013081!5e0!3m2!1ses-419!2sar!4v1654634447916!5m2!1ses-419!2sar" width="700" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </section>
+      <section class="sucursal">
+        <div class="sucursal__ubi">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1644.2568278953343!2d-58.485850970187904!3d-34.48985999623873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb175273d92df%3A0x407cc59eefa91315!2sAvenida%20del%20Libertador%20General%20San%20Mart%C3%ADn%2013081!5e0!3m2!1ses-419!2sar!4v1654634447916!5m2!1ses-419!2sar" width="500" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
         <nav class="p-1">
             <ul class="menu2">
                 <li><a href="#" id="arriba">Inicio</a></li>

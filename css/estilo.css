@@ -9,8 +9,7 @@
   font-family: 'Montserrat', sans-serif;
   overflow: auto;
   opacity: 80%;
-  margin: 2rem auto;
-  margin-bottom: 10rem;
+  margin: 7rem auto;
 }
 
 * {
@@ -26,51 +25,24 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-  color: aliceblue;
+  color: #e8f0f7;
   margin: 2rem auto;
 }
 
 body .headerInicio {
-  width: 90%;
+  width: 100%;
   margin: 20px auto;
   grid-area: headerInicio;
-  padding: 2rem;
 }
 
-body .headerInicio ul {
-  z-index: -1;
-  list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  padding: 2rem;
-  height: auto;
-  text-align: center;
-  background-color: #07353d;
-  opacity: 80%;
+body .headerInicio .navbar-expand-lg {
+  width: 90%;
+  margin: 20px auto;
+  opacity: 85%;
 }
 
-body .headerInicio ul .logo {
-  z-index: 1;
-}
-
-body .headerInicio ul li {
-  font-size: 1.7rem;
-}
-
-body .headerInicio ul li a {
-  display: inline-block;
-  color: #7fffd4;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New        Roman', serif;
-  font-style: bold;
-  margin-top: 3vh;
-}
-
-body .headerInicio ul li a:hover {
-  color: #e090ef;
+body .headerInicio .navbar-expand-lg .nav-item {
+  padding: 1rem;
 }
 
 body .mainInicio {
@@ -88,22 +60,40 @@ body .mainInicio .packs .packs__1 {
   width: 18rem;
 }
 
+body .mainInicio .videoIntro {
+  margin: 2rem auto;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+body .mainInicio .videoIntro .videonos {
+  margin: 6rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 30rem;
+  width: 80rem;
+}
+
 body .footerInicio {
   width: 90%;
   margin: 20px auto;
-  grid-area: footerInicio;
 }
 
-body .footerInicio .sucursales {
+body .footerInicio .sucursal .sucursal__ubi {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin: 3rem auto;
+  margin: 6rem auto;
 }
 
-body .footerInicio .sucursales .sucursales__ubi__map:hover {
+body .footerInicio .sucursal .sucursal__ubi .sucursal__ubi:hover {
   -webkit-transform: scale(1.2, 1.2);
           transform: scale(1.2, 1.2);
 }
@@ -135,104 +125,31 @@ body .footerInicio .menu2 li a:hover {
 }
 
 .ContenedorAbout {
-  width: 90%;
+  width: 100%;
   margin: 20px auto;
 }
 
 .ContenedorAbout .HAbout {
-  padding: 2rem;
+  grid-area: HAbout;
 }
 
-.ContenedorAbout .HAbout ul {
-  z-index: -1;
-  list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  padding: 2rem;
-  height: auto;
-  text-align: center;
-  background-color: #07353d;
-  opacity: 80%;
+.ContenedorAbout .HAbout .navbar-expand-lg {
+  width: 90%;
+  margin: 20px auto;
+  opacity: 85%;
 }
 
-.ContenedorAbout .HAbout ul .logo {
-  z-index: 1;
-}
-
-.ContenedorAbout .HAbout ul li {
-  font-size: 1.7rem;
-}
-
-.ContenedorAbout .HAbout ul li a {
-  display: inline-block;
-  color: #7fffd4;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New        Roman', serif;
-  font-style: bold;
-  margin-top: 3vh;
-}
-
-.ContenedorAbout .HAbout ul li a:hover {
-  color: #e090ef;
+.ContenedorAbout .HAbout .navbar-expand-lg .nav-item {
+  padding: 1rem;
 }
 
 .ContenedorAbout .main {
   font-size: 1.3rem;
-}
-
-.ContenedorAbout .contGrid {
-  width: 90%;
-  height: auto;
-  margin: 20px auto;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 2fr 1fr;
-      grid-template-columns: 1fr 2fr 1fr;
-  -ms-grid-rows: 2fr 2fr;
-      grid-template-rows: 2fr 2fr;
-  grid-gap: 2rem;
-      grid-template-areas: "foto1 videonos videonos foto2" "foto3 videonos videonos foto4";
-}
-
-.ContenedorAbout .contGrid .videonos {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 2;
-  grid-area: videonos;
-  width: 85%;
-  margin: 20px auto;
-}
-
-.ContenedorAbout .contGrid .foto1 {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  grid-area: foto1;
-}
-
-.ContenedorAbout .contGrid .foto2 {
-  -ms-grid-row: 1;
-  -ms-grid-column: 4;
-  grid-area: foto2;
-}
-
-.ContenedorAbout .contGrid .foto3 {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-  grid-area: foto3;
-}
-
-.ContenedorAbout .contGrid .foto4 {
-  -ms-grid-row: 2;
-  -ms-grid-column: 4;
-  grid-area: foto4;
+  grid-area: main;
 }
 
 .ContenedorAbout .Fabout {
-  margin-top: 10rem;
+  margin: 4rem;
   grid-area: Fabout;
 }
 
@@ -263,52 +180,24 @@ body .footerInicio .menu2 li a:hover {
 }
 
 .prodContainer {
-  width: 90%;
+  width: 100%;
   margin: 20px auto;
 }
 
-.prodContainer .headerProd {
-  padding: 2rem;
+.prodContainer .headerProd .navbar-expand-lg {
+  width: 90%;
+  margin: 20px auto;
+  opacity: 85%;
 }
 
-.prodContainer .headerProd ul {
-  z-index: -1;
-  list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  padding: 2rem;
-  height: auto;
-  text-align: center;
-  background-color: #07353d;
-  opacity: 80%;
-}
-
-.prodContainer .headerProd ul .logo {
-  z-index: 1;
-}
-
-.prodContainer .headerProd ul li {
-  font-size: 1.7rem;
-}
-
-.prodContainer .headerProd ul li a {
-  display: inline-block;
-  color: #7fffd4;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New        Roman', serif;
-  font-style: bold;
-  margin-top: 3vh;
-}
-
-.prodContainer .headerProd ul li a:hover {
-  color: #e090ef;
+.prodContainer .headerProd .navbar-expand-lg .nav-item {
+  padding: 1rem;
 }
 
 .prodContainer .productos {
   width: 90%;
+  margin: 3rem auto;
+  padding: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -356,48 +245,18 @@ body .footerInicio .menu2 li a:hover {
 }
 
 .shopsContainer {
-  width: 90%;
+  width: 100%;
   margin: 20px auto;
 }
 
-.shopsContainer .headerShop {
-  padding: 2rem;
+.shopsContainer .headerShop .navbar-expand-lg {
+  width: 90%;
+  margin: 20px auto;
+  opacity: 85%;
 }
 
-.shopsContainer .headerShop ul {
-  z-index: -1;
-  list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  padding: 2rem;
-  height: auto;
-  text-align: center;
-  background-color: #07353d;
-  opacity: 80%;
-}
-
-.shopsContainer .headerShop ul .logo {
-  z-index: 1;
-}
-
-.shopsContainer .headerShop ul li {
-  font-size: 1.7rem;
-}
-
-.shopsContainer .headerShop ul li a {
-  display: inline-block;
-  color: #7fffd4;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New        Roman', serif;
-  font-style: bold;
-  margin-top: 3vh;
-}
-
-.shopsContainer .headerShop ul li a:hover {
-  color: #e090ef;
+.shopsContainer .headerShop .navbar-expand-lg .nav-item {
+  padding: 1rem;
 }
 
 .shopsContainer .sucursales {
@@ -407,7 +266,7 @@ body .footerInicio .menu2 li a:hover {
 }
 
 .shopsContainer .sucursales .sucursales__ubi__maps {
-  margin-left: 18vw;
+  margin-left: 12rem;
   padding: 1rem;
 }
 
@@ -448,56 +307,30 @@ body .footerInicio .menu2 li a:hover {
 }
 
 .contenedorcontacto {
-  width: 90%;
+  width: 100%;
   margin: 20px auto;
 }
 
 .contenedorcontacto .Hcontact {
-  width: 90%;
   grid-area: Hcontact;
-  padding: 2rem;
 }
 
-.contenedorcontacto .Hcontact ul {
-  z-index: -1;
-  list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  padding: 2rem;
-  height: auto;
-  text-align: center;
-  background-color: #07353d;
-  opacity: 80%;
+.contenedorcontacto .Hcontact .navbar-expand-lg {
+  width: 90%;
+  margin: 20px auto;
+  opacity: 85%;
 }
 
-.contenedorcontacto .Hcontact ul .logo {
-  z-index: 1;
-}
-
-.contenedorcontacto .Hcontact ul li {
-  font-size: 1.7rem;
-}
-
-.contenedorcontacto .Hcontact ul li a {
-  display: inline-block;
-  color: #7fffd4;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New        Roman', serif;
-  font-style: bold;
-  margin-top: 3vh;
-}
-
-.contenedorcontacto .Hcontact ul li a:hover {
-  color: #e090ef;
+.contenedorcontacto .Hcontact .navbar-expand-lg .nav-item {
+  padding: 1rem;
 }
 
 .contenedorcontacto .Forcoment {
-  width: 90%;
-  padding: 5rem;
+  width: 80%;
+  margin: 3rem auto;
+  padding: 4rem;
   background-color: #07353d;
+  opacity: 95%;
   grid-area: Forcoment;
 }
 
@@ -507,6 +340,7 @@ body .footerInicio .menu2 li a:hover {
 
 .contenedorcontacto .footcontact {
   width: 90%;
+  margin: 20px auto;
   grid-area: footcontact;
 }
 
@@ -534,28 +368,5 @@ body .footerInicio .menu2 li a:hover {
 
 .contenedorcontacto .footcontact .p-1 .menu2 li a:hover {
   color: #e090ef;
-}
-
-@media screen and (max-width: 320px) {
-  .contenedorcontacto {
-    width: 90%;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    -ms-grid-rows: auto 1fr auto;
-        grid-template-rows: auto 1fr auto;
-        grid-template-areas: "Hcontact" "Forcoment" "footcontact";
-  }
-  .ContenedorAbout {
-    width: 90%;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    -ms-grid-rows: auto auto auto 1fr;
-        grid-template-rows: auto auto auto 1fr;
-        grid-template-areas: "HAbout" "main" "foto1" "foto2" "foto3" "foto4" "videonos" "Fabout";
-  }
 }
 /*# sourceMappingURL=estilo.css.map */

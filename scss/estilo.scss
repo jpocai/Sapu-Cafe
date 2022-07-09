@@ -12,198 +12,155 @@ body{
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    color: aliceblue;
+    color: #e8f0f7;
     margin: 2rem auto;
-    .headerInicio{
-        width: $ancho;
-        margin: 20px auto;
-        grid-area: headerInicio;
-        @include menuinicial;
-    } 
-    .mainInicio{
-        grid-area: mainInicio;
-        .intro{
-            @extend .intro;
-        }
-        .packs{
-            width: $ancho - 20;
-            margin-left: 15vw;
-                .packs__1{
-                    margin: 10px auto;
-                    padding: 2rem;
-                    width: 18rem;
-                }
-                
+            .headerInicio{
+                width: $ancho + 10;
+                margin: 20px auto;
+                grid-area: headerInicio;
+                @include menuinicial;  
+            }
+            .mainInicio{
+                    grid-area: mainInicio;
+                    .intro{
+                        @extend .intro;
+                    }
+                    .packs{
+                        width: $ancho - 20;
+                        margin-left: 15vw;
+                            .packs__1{
+                                margin: 10px auto;
+                                padding: 2rem;
+                                width: 18rem;
+                            }
+                            
+                    }
+                    .videoIntro{
+                        margin: 2rem auto;
+                        height: fit-content;
+                        .videonos{
+                            margin: 6rem auto;
+                            display: flex;
+                            justify-content: center;
+                            height: 30rem;
+                            width: 80rem;
+                        }
+                    }
+                }         
+            .footerInicio{
+                width: $ancho;
+                margin: 20px auto;
+                    .sucursal{
+                        .sucursal__ubi{
+                            display: flex;
+                            justify-content: space-around;
+                            margin: 6rem auto;
+                                .sucursal__ubi:hover {
+                                    transform: scale(1.2,1.2);
+                                }
+                        }
+                    }       
+                @import "menu2";
             }
         }
-    
-    .footerInicio{
-        width: $ancho;
-        margin: 20px auto;
-        grid-area: footerInicio;
-        .sucursales{
-            display: flex;
-            justify-content: space-around;
-            margin: 3rem auto;
-            .sucursales__ubi__map:hover {
-                transform: scale(1.2, 1.2);
-            }
-        }
-        @import "menu2";
-    }
-}
-.ContenedorAbout{
-    width: $ancho;
-    margin: 20px auto;
-    .HAbout{
-        @include menuinicial;
-    }
-    .main{
-        @extend .intro;
-        font-size: 1.3rem;
-    }
-    .contGrid{
-        width: $ancho;
-        height: auto;
-        margin: 20px auto;
-        display: grid;
-        grid-template-columns: 1fr 2fr 1fr;
-        grid-template-rows: 2fr 2fr;
-        grid-gap: 2rem;
-        grid-template-areas: 
-        "foto1 videonos videonos foto2"
-        "foto3 videonos videonos foto4";
-        .videonos{
-            grid-area: videonos;
-            width: $ancho - 5%;
+        .ContenedorAbout{
+            width: $ancho + 10;
             margin: 20px auto;
-        }
-        .foto1{
-            grid-area: foto1;
-        }
-        .foto2{
-            grid-area: foto2;
-        }
-        .foto3{
-            grid-area: foto3;
-        }
-        .foto4{
-            grid-area: foto4;
-        }
-    }
-    .Fabout{
-        margin-top: 10rem;
-        grid-area: Fabout;
-        .p-1{
-            @import "menu2";
-        }
-    }
-}
-.prodContainer{
-    width: $ancho;
-    margin: 20px auto;
-    .headerProd{
-        @include menuinicial;
-        }
-    .productos{
-        width: $ancho;
-        display: flex;
-        justify-content: space-between;
-        margin: 7rem auto;
-        
-        .card{
-           color: navy;
-           text-align: center;
-           text-decoration:underline;
-           
-        }
-    }
-    .footerProd{
-        width: $ancho;
-        margin: 20px auto;
-        .p-1{
-            @import "menu2";
-        }
-    }
-}
-.shopsContainer{
-    width: $ancho;
-    margin: 20px auto;
-    .headerShop{
-            @include menuinicial;
-    }
-    .sucursales{
-        width: $ancho - 10;
-        padding: 3rem;
-        margin: 10px auto;
-            .sucursales__ubi__maps{
-                margin-left: 18vw;
-                padding: 1rem;
+                .HAbout{
+                    @include menuinicial;
+                    grid-area: HAbout;
+                }
+                .main{
+                    @extend .intro;
+                    font-size: 1.3rem;
+                    grid-area: main;
+                }
+                .Fabout{
+                    margin: 4rem;                 
+                    grid-area: Fabout;
+                    .p-1{
+                        @import "menu2";
+                    }
+                }           
             }
-            .sucursales__ubi__maps:hover {
-            transform: scale(1.1, 1.1);
-            }   
-    }
-    .footerShop{
-        width: $ancho;
-        margin: 20px auto;
-        .p-1{
-            @import "menu2";
-        }
-    }
-}
-.contenedorcontacto{
-    width: $ancho;
-    margin: 20px auto;
-    .Hcontact{
+        .prodContainer{
+            width: $ancho + 10;
+            margin: 20px auto;
+                .headerProd{
+                    @include menuinicial;
+                }
+                .productos{
+                    width: $ancho;
+                    margin: 3rem auto;
+                    padding: 2rem;
+                    display: flex;
+                    justify-content: space-between;
+                    margin: 7rem auto;
+                .card{
+                    color: navy;
+                    text-align: center;
+                    text-decoration:underline;
+                    }
+                }
+        .footerProd{
             width: $ancho;
-            grid-area: Hcontact;
-            @include menuinicial;
-    }
-    .Forcoment{
-        width: $ancho;
-        padding: 5rem;
-        background-color: rgb(7, 53, 61);
-        grid-area: Forcoment;
-        .btn{
-            margin-left: 4rem;
+            margin: 20px auto;
+                .p-1{
+                    @import "menu2";
+                }
+            }
         }
-    }
-    .footcontact{
-        width: $ancho;
-        grid-area: footcontact;
-        .p-1{
-            @import "menu2";
+        .shopsContainer{
+            width: $ancho + 10;
+            margin: 20px auto;
+                .headerShop{
+                    @include menuinicial;
+                }
+                .sucursales{
+                    width: $ancho - 10;
+                    padding: 3rem;
+                    margin: 10px auto;
+                        .sucursales__ubi__maps{
+                            margin-left: 12rem;
+                            padding: 1rem;
+                        }
+                        .sucursales__ubi__maps:hover {
+                        transform: scale(1.1, 1.1);
+                        }   
+                }
+                .footerShop{
+                    width: $ancho;
+                    margin: 20px auto;
+                    .p-1{
+                        @import "menu2";
+                    }
+                }
         }
-    }
-}
-@media screen and (max-width:320px) {
-    .contenedorcontacto {
-        width: $ancho;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto 1fr auto;
-        grid-template-areas:
-        "Hcontact"
-        "Forcoment"
-        "footcontact";
-    }
-    .ContenedorAbout {
-        width: $ancho;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto auto 1fr;
-        grid-template-areas:
-        "HAbout"
-        "main"
-        "foto1"
-        "foto2"
-        "foto3"
-        "foto4"
-        "videonos"
-        "Fabout";
-    } 
-}
-@media screen and (max-width:1280px) {
-       
-}     
+        .contenedorcontacto{
+            width: $ancho + 10;
+            margin: 20px auto;
+            .Hcontact{
+                grid-area: Hcontact;
+                @include menuinicial;
+            }
+            .Forcoment{
+                width: $ancho - 10;
+                margin: 3rem auto;
+                padding: 4rem;
+                background-color: rgb(7, 53, 61);
+                opacity: 95%;
+                grid-area: Forcoment;
+                    .btn{
+                        margin-left: 4rem;
+                    }
+                }
+            .footcontact{
+                width: $ancho;
+                margin: 20px auto;
+                grid-area: footcontact;
+                .p-1{
+                    @import "menu2";
+                }
+            }
+        }
+     
