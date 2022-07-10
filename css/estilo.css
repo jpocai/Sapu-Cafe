@@ -314,7 +314,7 @@ body .footerInicio .p-1 .menu2 .contacto:hover {
 
 .prodContainer .productos1 {
   width: 90%;
-  margin: 3rem auto;
+  margin: 4rem auto;
   padding: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -337,7 +337,7 @@ body .footerInicio .p-1 .menu2 .contacto:hover {
 
 .prodContainer .productos2 {
   width: 90%;
-  margin: 3rem auto;
+  margin: 4rem auto;
   padding: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -606,8 +606,7 @@ body .footerInicio .p-1 .menu2 .contacto:hover {
   }
   .contenedorcontacto .Forcoment {
     width: 100%;
-    margin: 2rem auto;
-    padding: 1rem auto;
+    margin: 1rem auto;
   }
   .contenedorcontacto .footcontact .p-1 .menu2 {
     display: -webkit-box;
