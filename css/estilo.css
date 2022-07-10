@@ -550,7 +550,7 @@ body .footerInicio .p-1 .menu2 .contacto:hover {
           transform: scale(1.5, 1.5);
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
   .contenedorInicio {
     width: 100%;
     margin: 10px auto;
@@ -562,6 +562,12 @@ body .footerInicio .p-1 .menu2 .contacto:hover {
     width: 300px;
     height: 200px;
     margin-bottom: 30vh;
+  }
+  .contenedorInicio .mainInicio .tit__pack {
+    width: 90%;
+  }
+  .contenedorInicio .footerInicio .sucursal {
+    width: 90%;
   }
   .contenedorInicio .footerInicio .p-1 .menu2 {
     display: -webkit-box;

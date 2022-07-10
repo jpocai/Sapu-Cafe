@@ -32,7 +32,6 @@ body{
                         color: rgb(31, 230, 236);
                         background-color: #07353d;
                         opacity: 85%;
-                        
                     }
                     .packs{
                         width: $ancho - 20;
@@ -172,7 +171,7 @@ body{
                 }
             }
         }
-        @media only screen and (max-width: 480px){
+        @media only screen and (max-width: 600px){
             .contenedorInicio{
                 width: 100%;
                 margin: 10px auto;
@@ -185,8 +184,14 @@ body{
                             margin-bottom: 30vh
                         }
                     }
+                    .tit__pack{
+                        width: $ancho;  
+                    }
                 }
                 .footerInicio{
+                    .sucursal{
+                        width: $ancho;
+                    }
                     .p-1{
                         @import "footer@";
                     }
