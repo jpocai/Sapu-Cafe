@@ -45,8 +45,23 @@ body .headerInicio .navbar-expand-lg .nav-item {
 }
 
 body .headerInicio .navbar-expand-lg .nav-item:hover {
-  -webkit-transform: rotate(15deg);
-          transform: rotate(15deg);
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+
+@media only screen and (max-width: 480px) {
+  body .headerInicio navbar-expand-lg {
+    width: 90%;
+    margin: 20px auto;
+    opacity: 85%;
+  }
+  body .headerInicio navbar-expand-lg .nav-item {
+    padding: 1rem;
+  }
+  body .headerInicio navbar-expand-lg .nav-item:hover {
+    -webkit-transform: none;
+            transform: none;
+  }
 }
 
 body .mainInicio .packs {
@@ -168,8 +183,23 @@ body .footerInicio .p-1 .menu2 .contacto:hover {
 }
 
 .ContenedorAbout .HAbout .navbar-expand-lg .nav-item:hover {
-  -webkit-transform: rotate(15deg);
-          transform: rotate(15deg);
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+
+@media only screen and (max-width: 480px) {
+  .ContenedorAbout .HAbout navbar-expand-lg {
+    width: 90%;
+    margin: 20px auto;
+    opacity: 85%;
+  }
+  .ContenedorAbout .HAbout navbar-expand-lg .nav-item {
+    padding: 1rem;
+  }
+  .ContenedorAbout .HAbout navbar-expand-lg .nav-item:hover {
+    -webkit-transform: none;
+            transform: none;
+  }
 }
 
 .ContenedorAbout .main {
@@ -253,8 +283,23 @@ body .footerInicio .p-1 .menu2 .contacto:hover {
 }
 
 .prodContainer .headerProd .navbar-expand-lg .nav-item:hover {
-  -webkit-transform: rotate(15deg);
-          transform: rotate(15deg);
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+
+@media only screen and (max-width: 480px) {
+  .prodContainer .headerProd navbar-expand-lg {
+    width: 90%;
+    margin: 20px auto;
+    opacity: 85%;
+  }
+  .prodContainer .headerProd navbar-expand-lg .nav-item {
+    padding: 1rem;
+  }
+  .prodContainer .headerProd navbar-expand-lg .nav-item:hover {
+    -webkit-transform: none;
+            transform: none;
+  }
 }
 
 .prodContainer .productos1 {
@@ -381,8 +426,23 @@ body .footerInicio .p-1 .menu2 .contacto:hover {
 }
 
 .contenedorcontacto .Hcontact .navbar-expand-lg .nav-item:hover {
-  -webkit-transform: rotate(15deg);
-          transform: rotate(15deg);
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+
+@media only screen and (max-width: 480px) {
+  .contenedorcontacto .Hcontact navbar-expand-lg {
+    width: 90%;
+    margin: 20px auto;
+    opacity: 85%;
+  }
+  .contenedorcontacto .Hcontact navbar-expand-lg .nav-item {
+    padding: 1rem;
+  }
+  .contenedorcontacto .Hcontact navbar-expand-lg .nav-item:hover {
+    -webkit-transform: none;
+            transform: none;
+  }
 }
 
 .contenedorcontacto .Forcoment {
@@ -470,6 +530,7 @@ body .footerInicio .p-1 .menu2 .contacto:hover {
   .contenedorInicio .mainInicio .videoIntro .videonos {
     width: 300px;
     height: 200px;
+    margin-bottom: 10vh;
   }
   .contenedorInicio .footerInicio .p-1 .menu2 {
     display: -webkit-box;
@@ -482,7 +543,7 @@ body .footerInicio .p-1 .menu2 .contacto:hover {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-    gap: 1.5rem;
+    gap: 1.8rem;
     float: none;
   }
   .ContenedorAbout .Fabout .p-1 .menu2 {
@@ -496,7 +557,7 @@ body .footerInicio .p-1 .menu2 .contacto:hover {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-    gap: 1.5rem;
+    gap: 1.8rem;
     float: none;
   }
   .prodContainer .productos1 {
@@ -530,7 +591,7 @@ body .footerInicio .p-1 .menu2 .contacto:hover {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-    gap: 1.5rem;
+    gap: 1.8rem;
     float: none;
   }
   .contenedorcontacto .Forcoment {
@@ -549,7 +610,7 @@ body .footerInicio .p-1 .menu2 .contacto:hover {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-    gap: 1.5rem;
+    gap: 1.8rem;
     float: none;
   }
 }
