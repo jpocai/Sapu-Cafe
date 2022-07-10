@@ -92,7 +92,7 @@ body .footerInicio .sucursal .sucursal__ubi {
 
 body .footerInicio .p-1 .menu2 {
   width: 20%;
-  margin: 1rem auto;
+  margin: 3rem auto;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -158,7 +158,7 @@ body .footerInicio .p-1 .menu2 .contacto {
 
 .ContenedorAbout .Fabout .p-1 .menu2 {
   width: 20%;
-  margin: 1rem auto;
+  margin: 3rem auto;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -234,7 +234,7 @@ body .footerInicio .p-1 .menu2 .contacto {
 
 .prodContainer .footerProd .p-1 .menu2 {
   width: 20%;
-  margin: 1rem auto;
+  margin: 3rem auto;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -309,7 +309,7 @@ body .footerInicio .p-1 .menu2 .contacto {
 
 .contenedorcontacto .footcontact .p-1 .menu2 {
   width: 20%;
-  margin: 1rem auto;
+  margin: 3rem auto;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -357,14 +357,13 @@ body .footerInicio .p-1 .menu2 .contacto {
     height: 200px;
   }
   .contenedorInicio .footerInicio .p-1 .menu2 {
-    margin: 10px;
+    margin: 2rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    font-size: 0.7rem;
   }
   .contenedorInicio .footerInicio .p-1 .menu2 .facebook {
     width: 15px;
