@@ -111,7 +111,7 @@ body .footerInicio .p-1 .menu2 {
 body .footerInicio .p-1 .menu2 li a {
   color: #7fffd4;
   font-weight: bold;
-  font-size: larger;
+  font-size: 1.2rem;
 }
 
 body .footerInicio .p-1 .menu2 li a:hover {
@@ -168,7 +168,7 @@ body .footerInicio .p-1 .menu2 li a:hover {
 .ContenedorAbout .Fabout .p-1 .menu2 li a {
   color: #7fffd4;
   font-weight: bold;
-  font-size: larger;
+  font-size: 1.2rem;
 }
 
 .ContenedorAbout .Fabout .p-1 .menu2 li a:hover {
@@ -235,7 +235,7 @@ body .footerInicio .p-1 .menu2 li a:hover {
 .prodContainer .footerProd .p-1 .menu2 li a {
   color: #7fffd4;
   font-weight: bold;
-  font-size: larger;
+  font-size: 1.2rem;
 }
 
 .prodContainer .footerProd .p-1 .menu2 li a:hover {
@@ -301,7 +301,7 @@ body .footerInicio .p-1 .menu2 li a:hover {
 .contenedorcontacto .footcontact .p-1 .menu2 li a {
   color: #7fffd4;
   font-weight: bold;
-  font-size: larger;
+  font-size: 1.2rem;
 }
 
 .contenedorcontacto .footcontact .p-1 .menu2 li a:hover {
@@ -319,6 +319,13 @@ body .footerInicio .p-1 .menu2 li a:hover {
   .contenedorInicio .mainInicio .videoIntro .videonos {
     width: 300px;
     height: 200px;
+  }
+  .contenedorInicio .footerInicio .p-1 .menu2 {
+    margin: 10px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-size: 0.7rem;
   }
 }
 /*# sourceMappingURL=estilo.css.map */
