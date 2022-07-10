@@ -575,6 +575,10 @@ body .footerInicio .p-1 .menu2 .contacto:hover {
   .contenedorInicio .mainInicio .tit__pack {
     width: 90%;
   }
+  .contenedorInicio .mainInicio .packs {
+    width: 90%;
+    margin: 2rem auto;
+  }
   .contenedorInicio .footerInicio .sucursal .tit__suc {
     width: 90%;
   }
@@ -610,6 +614,7 @@ body .footerInicio .p-1 .menu2 .contacto:hover {
     width: 90%;
   }
   .prodContainer .productos1 {
+    width: 90%;
     margin: 2rem auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -621,6 +626,7 @@ body .footerInicio .p-1 .menu2 .contacto:hover {
     gap: 5rem;
   }
   .prodContainer .productos2 {
+    width: 90%;
     margin: 2rem auto;
     display: -webkit-box;
     display: -ms-flexbox;

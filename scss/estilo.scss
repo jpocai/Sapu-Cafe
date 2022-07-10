@@ -195,6 +195,10 @@ body{
                     .tit__pack{
                         width: $ancho;  
                     }
+                    .packs{
+                        width: $ancho;
+                        margin: 2rem auto;
+                    }
                 }
                 .footerInicio{
                     .sucursal{
@@ -219,12 +223,14 @@ body{
                     width: $ancho;
                 }
                 .productos1{
+                    width: $ancho;
                     margin: 2rem auto;
                     display: flex;
                     flex-direction: column;
                     gap: 5rem;
                 }
                 .productos2{
+                    width: $ancho;
                     margin: 2rem auto;
                     display: flex;
                     flex-direction: column; 
