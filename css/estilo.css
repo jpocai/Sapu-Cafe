@@ -358,12 +358,6 @@ body .footerInicio .p-1 .menu2 .contacto {
   }
   .contenedorInicio .footerInicio .p-1 .menu2 {
     margin: 2rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
   }
   .contenedorInicio .footerInicio .p-1 .menu2 .facebook {
     width: 15px;
