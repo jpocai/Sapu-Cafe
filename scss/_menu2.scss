@@ -9,17 +9,29 @@
     .home{
         width: 30px;
         height: 25px;
+        &:hover{
+            transform: scale(1.5,1.5);
+        }
     }
     .facebook{
         width: 30px;
         height: 25px;
+        &:hover{
+            transform: scale(1.5,1.5);
+        }
     }
     .instagram{
         width: 30px;
         height: 25px;
+        &:hover{
+            transform: scale(1.5,1.5);
+        }
     }
     .contacto{
         width: 30px;
         height: 25px;
+        &:hover{
+            transform: scale(1.5,1.5);
+        }
     }
 }

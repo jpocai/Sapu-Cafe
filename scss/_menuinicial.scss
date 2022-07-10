@@ -5,6 +5,10 @@
         opacity: 85%;           
             .nav-item{
                 padding: 1rem;
+                    &:hover{
+                        transform:rotate(15deg);
+                        
+                    }
             }
         }
     }

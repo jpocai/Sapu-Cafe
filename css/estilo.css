@@ -44,6 +44,11 @@ body .headerInicio .navbar-expand-lg .nav-item {
   padding: 1rem;
 }
 
+body .headerInicio .navbar-expand-lg .nav-item:hover {
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
+}
+
 body .mainInicio .packs {
   width: 70%;
   margin-left: 15vw;
@@ -85,6 +90,11 @@ body .footerInicio .sucursal .sucursal__ubi {
   margin: 6rem auto;
 }
 
+body .footerInicio .sucursal .sucursal__ubi:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+
 body .footerInicio .p-1 .menu2 {
   width: 20%;
   margin: 3rem auto;
@@ -107,9 +117,19 @@ body .footerInicio .p-1 .menu2 .home {
   height: 25px;
 }
 
+body .footerInicio .p-1 .menu2 .home:hover {
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
+}
+
 body .footerInicio .p-1 .menu2 .facebook {
   width: 30px;
   height: 25px;
+}
+
+body .footerInicio .p-1 .menu2 .facebook:hover {
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
 }
 
 body .footerInicio .p-1 .menu2 .instagram {
@@ -117,9 +137,19 @@ body .footerInicio .p-1 .menu2 .instagram {
   height: 25px;
 }
 
+body .footerInicio .p-1 .menu2 .instagram:hover {
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
+}
+
 body .footerInicio .p-1 .menu2 .contacto {
   width: 30px;
   height: 25px;
+}
+
+body .footerInicio .p-1 .menu2 .contacto:hover {
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
 }
 
 .ContenedorAbout {
@@ -135,6 +165,11 @@ body .footerInicio .p-1 .menu2 .contacto {
 
 .ContenedorAbout .HAbout .navbar-expand-lg .nav-item {
   padding: 1rem;
+}
+
+.ContenedorAbout .HAbout .navbar-expand-lg .nav-item:hover {
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
 }
 
 .ContenedorAbout .main {
@@ -167,9 +202,19 @@ body .footerInicio .p-1 .menu2 .contacto {
   height: 25px;
 }
 
+.ContenedorAbout .Fabout .p-1 .menu2 .home:hover {
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
+}
+
 .ContenedorAbout .Fabout .p-1 .menu2 .facebook {
   width: 30px;
   height: 25px;
+}
+
+.ContenedorAbout .Fabout .p-1 .menu2 .facebook:hover {
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
 }
 
 .ContenedorAbout .Fabout .p-1 .menu2 .instagram {
@@ -177,9 +222,19 @@ body .footerInicio .p-1 .menu2 .contacto {
   height: 25px;
 }
 
+.ContenedorAbout .Fabout .p-1 .menu2 .instagram:hover {
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
+}
+
 .ContenedorAbout .Fabout .p-1 .menu2 .contacto {
   width: 30px;
   height: 25px;
+}
+
+.ContenedorAbout .Fabout .p-1 .menu2 .contacto:hover {
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
 }
 
 .prodContainer {
@@ -195,6 +250,11 @@ body .footerInicio .p-1 .menu2 .contacto {
 
 .prodContainer .headerProd .navbar-expand-lg .nav-item {
   padding: 1rem;
+}
+
+.prodContainer .headerProd .navbar-expand-lg .nav-item:hover {
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
 }
 
 .prodContainer .productos1 {
@@ -215,6 +275,11 @@ body .footerInicio .p-1 .menu2 .contacto {
   text-align: center;
 }
 
+.prodContainer .productos1 .card:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+
 .prodContainer .productos2 {
   width: 90%;
   margin: 3rem auto;
@@ -231,6 +296,11 @@ body .footerInicio .p-1 .menu2 .contacto {
 .prodContainer .productos2 .card {
   color: navy;
   text-align: center;
+}
+
+.prodContainer .productos2 .card:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
 }
 
 .prodContainer .footerProd {
@@ -260,9 +330,19 @@ body .footerInicio .p-1 .menu2 .contacto {
   height: 25px;
 }
 
+.prodContainer .footerProd .p-1 .menu2 .home:hover {
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
+}
+
 .prodContainer .footerProd .p-1 .menu2 .facebook {
   width: 30px;
   height: 25px;
+}
+
+.prodContainer .footerProd .p-1 .menu2 .facebook:hover {
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
 }
 
 .prodContainer .footerProd .p-1 .menu2 .instagram {
@@ -270,9 +350,19 @@ body .footerInicio .p-1 .menu2 .contacto {
   height: 25px;
 }
 
+.prodContainer .footerProd .p-1 .menu2 .instagram:hover {
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
+}
+
 .prodContainer .footerProd .p-1 .menu2 .contacto {
   width: 30px;
   height: 25px;
+}
+
+.prodContainer .footerProd .p-1 .menu2 .contacto:hover {
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
 }
 
 .contenedorcontacto {
@@ -288,6 +378,11 @@ body .footerInicio .p-1 .menu2 .contacto {
 
 .contenedorcontacto .Hcontact .navbar-expand-lg .nav-item {
   padding: 1rem;
+}
+
+.contenedorcontacto .Hcontact .navbar-expand-lg .nav-item:hover {
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
 }
 
 .contenedorcontacto .Forcoment {
@@ -329,9 +424,19 @@ body .footerInicio .p-1 .menu2 .contacto {
   height: 25px;
 }
 
+.contenedorcontacto .footcontact .p-1 .menu2 .home:hover {
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
+}
+
 .contenedorcontacto .footcontact .p-1 .menu2 .facebook {
   width: 30px;
   height: 25px;
+}
+
+.contenedorcontacto .footcontact .p-1 .menu2 .facebook:hover {
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
 }
 
 .contenedorcontacto .footcontact .p-1 .menu2 .instagram {
@@ -339,9 +444,19 @@ body .footerInicio .p-1 .menu2 .contacto {
   height: 25px;
 }
 
+.contenedorcontacto .footcontact .p-1 .menu2 .instagram:hover {
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
+}
+
 .contenedorcontacto .footcontact .p-1 .menu2 .contacto {
   width: 30px;
   height: 25px;
+}
+
+.contenedorcontacto .footcontact .p-1 .menu2 .contacto:hover {
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
 }
 
 @media only screen and (max-width: 480px) {
