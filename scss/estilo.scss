@@ -20,10 +20,44 @@ body{
                 @include menuinicial;  
             }
             .mainInicio{
-                    .intro{
-                        @extend .intro;
+                .intro{
+                    @extend .intro;
+                }
+                .tit__pack{
+                    width: 25rem;
+                    padding: 2rem;
+                    margin: 10px auto;
+                    text-align: center;
+                    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                    color: rgb(31, 230, 236);
+                    background-color: #07353d;
+                    opacity: 85%;
+                }
+                .packs{
+                    width: $ancho - 20;
+                    margin-left: 15vw;
+                        .packs__1{
+                            margin: 10px auto;
+                            padding: 2rem;
+                            width: 18rem;
+                        }    
+                }
+                .videoIntro{
+                    margin: 2rem auto;
+                    .videonos{
+                        margin: 6rem auto;
+                        display: flex;
+                        justify-content: center;
+                        height: 25rem;
+                        width: 70rem;
                     }
-                    .tit__pack{
+                }
+            }         
+            .footerInicio{
+                width: $ancho;
+                margin: 20px auto;
+                .sucursal{
+                    .tit__suc{
                         width: 25rem;
                         padding: 2rem;
                         margin: 10px auto;
@@ -33,114 +67,80 @@ body{
                         background-color: #07353d;
                         opacity: 85%;
                     }
-                    .packs{
-                        width: $ancho - 20;
-                        margin-left: 15vw;
-                            .packs__1{
-                                margin: 10px auto;
-                                padding: 2rem;
-                                width: 18rem;
-                            }    
-                    }
-                    .videoIntro{
-                        margin: 2rem auto;
-                        .videonos{
-                            margin: 6rem auto;
-                            display: flex;
-                            justify-content: center;
-                            height: 25rem;
-                            width: 70rem;
+                    .sucursal__ubi{
+                        display: flex;
+                        justify-content: space-around;
+                        margin: 6rem auto;
+                        &:hover{
+                            transform: scale(1.1,1.1);
                         }
                     }
-            }         
-            .footerInicio{
-                width: $ancho;
-                margin: 20px auto;
-                    .sucursal{
-                        .tit__suc{
-                            width: 25rem;
-                            padding: 2rem;
-                            margin: 10px auto;
-                            text-align: center;
-                            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-                            color: rgb(31, 230, 236);
-                            background-color: #07353d;
-                            opacity: 85%;
-                        }
-                        .sucursal__ubi{
-                            display: flex;
-                            justify-content: space-around;
-                            margin: 6rem auto;
-                                &:hover{
-                                    transform: scale(1.1,1.1);
-                                }
-                        }
-                    }
-                    .p-1{
-                        @import "menu2";
-                    }       
+                }
+                .p-1{
+                    @import "menu2";
+                }       
             }
     }
         .ContenedorAbout{
             width: $ancho + 10;
             margin: 20px auto;
-                .HAbout{
-                    @include menuinicial;
+            .HAbout{
+                @include menuinicial;
+            }
+            .main{
+                @extend .intro;
+                font-size: 1.3rem;
+            }
+            .Fabout{
+                margin: 4rem;                 
+                .p-1{
+                    @import "menu2";
                 }
-                .main{
-                    @extend .intro;
-                    font-size: 1.3rem;
-                }
-                .Fabout{
-                    margin: 4rem;                 
-                    .p-1{
-                        @import "menu2";
-                    }
-                }           
+            }           
         }
         .prodContainer{
             width: $ancho + 10;
             margin: 20px auto;
-                .headerProd{
-                    @include menuinicial;
-                }
-                .productos1{
-                    width: $ancho;
-                    margin: 4rem auto;
-                    padding: 2rem;
-                    display: flex;
-                    justify-content: space-between;
-                    margin: 7rem auto;
+            .headerProd{
+                @include menuinicial;
+            }
+            .productos1{
+                width: $ancho;
+                margin: 4rem auto;
+                padding: 2rem;
+                display: flex;
+                justify-content: space-between;
+                margin: 7rem auto;
                 .card{
                     color: navy;
                     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                     font-size: 1.1rem;
                     text-align: center;
-                        &:hover{
-                            transform: scale(1.2,1.2);
-                        }
+                    &:hover{
+                        transform: scale(1.2,1.2);
                     }
                 }
-                .productos2{
-                    width: $ancho;
-                    margin: 4rem auto;
-                    padding: 2rem;
-                    display: flex;
-                    justify-content: space-between;
-                    margin: 7rem auto;
+            }
+            .productos2{
+                width: $ancho;
+                margin: 4rem auto;
+                padding: 2rem;
+                display: flex;
+                justify-content: space-between;
+                margin: 7rem auto;
                 .card{
                     color: navy;
                     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                     font-size: 1.1rem;
                     text-align: center;
-                        &:hover{
-                            transform: scale(1.2,1.2);
-                        }
+                    &:hover{
+                        transform: scale(1.2,1.2);
                     }
                 }
-        .footerProd{
-            width: $ancho;
-            margin: 20px auto;
+            }
+            .footerProd{
+                width: $ancho;
+                margin: 20px auto;
                 .p-1{
                     @import "menu2";
                 }
@@ -159,9 +159,9 @@ body{
                 padding: 4rem;
                 background-color: rgb(7, 53, 61);
                 opacity: 95%;
-                    .btn{
-                        margin-left: 4rem;
-                    }
+                .btn{
+                    margin-left: 4rem;
+                }
             }
             .footcontact{
                 width: $ancho;
