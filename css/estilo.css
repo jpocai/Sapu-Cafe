@@ -327,6 +327,17 @@ body .footerInicio .p-1 .menu2 .contacto:hover {
   }
 }
 
+.prodContainer .tit__prod {
+  width: 25rem;
+  padding: 1rem;
+  margin: 5rem auto;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #1fe6ec;
+  background-color: #07353d;
+  opacity: 85%;
+}
+
 .prodContainer .productos1 {
   width: 90%;
   margin: 4rem auto;
@@ -337,7 +348,6 @@ body .footerInicio .p-1 .menu2 .contacto:hover {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 7rem auto;
 }
 
 .prodContainer .productos1 .card {
@@ -362,7 +372,6 @@ body .footerInicio .p-1 .menu2 .contacto:hover {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 7rem auto;
 }
 
 .prodContainer .productos2 .card {
@@ -596,6 +605,9 @@ body .footerInicio .p-1 .menu2 .contacto:hover {
             justify-content: space-evenly;
     gap: 1.8rem;
     float: none;
+  }
+  .prodContainer .tit__prod {
+    width: 90%;
   }
   .prodContainer .productos1 {
     margin: 2rem auto;

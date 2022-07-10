@@ -104,13 +104,22 @@ body{
             .headerProd{
                 @include menuinicial;
             }
+            .tit__prod{
+                width: 25rem;
+                padding: 1rem;
+                margin: 5rem auto;
+                text-align: center;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                color: rgb(31, 230, 236);
+                background-color: #07353d;
+                opacity: 85%;
+            }
             .productos1{
                 width: $ancho;
                 margin: 4rem auto;
                 padding: 2rem;
                 display: flex;
                 justify-content: space-between;
-                margin: 7rem auto;
                 .card{
                     color: navy;
                     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -127,7 +136,6 @@ body{
                 padding: 2rem;
                 display: flex;
                 justify-content: space-between;
-                margin: 7rem auto;
                 .card{
                     color: navy;
                     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -207,6 +215,9 @@ body{
                 }
             }
             .prodContainer{
+                .tit__prod{
+                    width: $ancho;
+                }
                 .productos1{
                     margin: 2rem auto;
                     display: flex;
