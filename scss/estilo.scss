@@ -37,7 +37,7 @@ body{
                     width: $ancho - 40;
                     margin: 8rem auto;
                         .packs__1{
-                            margin: 10px auto;
+                            margin: 2px auto;
                             padding: 2rem;
                             width: 18rem;
                         }    
@@ -179,7 +179,7 @@ body{
                 }
             }
         }
-        @media only screen and (max-width: 600px){
+        @media only screen and (max-width: 480px){
             .contenedorInicio{
                 width: 100%;
                 margin: 10px auto;
