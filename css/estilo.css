@@ -307,4 +307,18 @@ body .footerInicio .p-1 .menu2 li a:hover {
 .contenedorcontacto .footcontact .p-1 .menu2 li a:hover {
   color: #e090ef;
 }
+
+@media only screen and (max-width: 480px) {
+  .contenedorInicio {
+    width: 100%;
+    margin: 10px auto;
+  }
+  .contenedorInicio .mainInicio .videoIntro {
+    width: 90%;
+  }
+  .contenedorInicio .mainInicio .videoIntro .videonos {
+    width: 300px;
+    height: 200px;
+  }
+}
 /*# sourceMappingURL=estilo.css.map */

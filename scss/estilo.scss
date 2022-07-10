@@ -44,7 +44,7 @@ body{
                             width: 70rem;
                         }
                     }
-                }         
+            }         
             .footerInicio{
                 width: $ancho;
                 margin: 20px auto;
@@ -59,7 +59,7 @@ body{
                         @import "menu2";
                     }       
             }
-        }
+    }
         .ContenedorAbout{
             width: $ancho + 10;
             margin: 20px auto;
@@ -79,7 +79,7 @@ body{
                         @import "menu2";
                     }
                 }           
-            }
+        }
         .prodContainer{
             width: $ancho + 10;
             margin: 20px auto;
@@ -124,13 +124,28 @@ body{
                     .btn{
                         margin-left: 4rem;
                     }
-                }
+            }
             .footcontact{
                 width: $ancho;
                 margin: 20px auto;
                 grid-area: footcontact;
                 .p-1{
                     @import "menu2";
+                }
+            }
+        }
+        @media only screen and (max-width: 480px){
+            .contenedorInicio{
+                width: 100%;
+                margin: 10px auto;
+                .mainInicio{
+                    .videoIntro{
+                        width: $ancho;
+                        .videonos{
+                            width: 300px;
+                            height: 200px;
+                        }
+                    }
                 }
             }
         }
