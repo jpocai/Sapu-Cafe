@@ -222,16 +222,18 @@ body{
                     width: $ancho;
                 }
                 .productos1{
+                    width: $ancho - 10;
                     margin: 4rem auto;
                     display: flex;
                     flex-direction: column;
-                    gap: 5rem;
+                    gap: 4rem;
                 }
                 .productos2{
+                    width: $ancho - 10;
                     margin: 4rem auto;
                     display: flex;
                     flex-direction: column; 
-                    gap: 5rem;
+                    gap: 4rem;
                 }
                 .footerProd{
                     .p-1{

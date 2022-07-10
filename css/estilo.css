@@ -613,6 +613,7 @@ body .footerInicio .p-1 .menu2 .contacto:hover {
     width: 90%;
   }
   .prodContainer .productos1 {
+    width: 80%;
     margin: 4rem auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -621,9 +622,10 @@ body .footerInicio .p-1 .menu2 .contacto:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    gap: 5rem;
+    gap: 4rem;
   }
   .prodContainer .productos2 {
+    width: 80%;
     margin: 4rem auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -632,7 +634,7 @@ body .footerInicio .p-1 .menu2 .contacto:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    gap: 5rem;
+    gap: 4rem;
   }
   .prodContainer .footerProd .p-1 .menu2 {
     display: -webkit-box;
