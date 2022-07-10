@@ -619,6 +619,7 @@ body .footerInicio .p-1 .menu2 .contacto:hover {
         -ms-flex-direction: column;
             flex-direction: column;
     gap: 5rem;
+    float: center;
   }
   .prodContainer .productos2 {
     margin: 2rem auto;
@@ -630,6 +631,7 @@ body .footerInicio .p-1 .menu2 .contacto:hover {
         -ms-flex-direction: column;
             flex-direction: column;
     gap: 5rem;
+    float: center;
   }
   .prodContainer .footerProd .p-1 .menu2 {
     display: -webkit-box;
