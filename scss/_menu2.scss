@@ -1,18 +1,25 @@
 .menu2{
-    width: $ancho;
+    width: $ancho - 70;
     margin: 1rem auto;
     list-style: none;
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     justify-content: space-evenly;
-    background-color: rgb(7, 53, 61);
-    opacity: 80%;
-    li a{
-        color: #7fffd4;
-        font-weight: bold;
-        font-size: 1.2rem;
-            &:hover{
-                color: rgb(224, 144, 239);
-            }
-        }
+    float: right;
+    .home{
+        width: 30px;
+        height: 25px;
     }
+    .facebook{
+        width: 30px;
+        height: 25px;
+    }
+    .instagram{
+        width: 30px;
+        height: 25px;
+    }
+    .contacto{
+        width: 30px;
+        height: 25px;
+    }
+}
