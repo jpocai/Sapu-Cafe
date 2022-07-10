@@ -17,11 +17,9 @@ body{
             .headerInicio{
                 width: $ancho + 10;
                 margin: 20px auto;
-                grid-area: headerInicio;
                 @include menuinicial;  
             }
             .mainInicio{
-                    grid-area: mainInicio;
                     .intro{
                         @extend .intro;
                     }
@@ -65,16 +63,13 @@ body{
             margin: 20px auto;
                 .HAbout{
                     @include menuinicial;
-                    grid-area: HAbout;
                 }
                 .main{
                     @extend .intro;
                     font-size: 1.3rem;
-                    grid-area: main;
                 }
                 .Fabout{
                     margin: 4rem;                 
-                    grid-area: Fabout;
                     .p-1{
                         @import "menu2";
                     }
@@ -111,16 +106,14 @@ body{
             width: $ancho + 10;
             margin: 20px auto;
             .Hcontact{
-                grid-area: Hcontact;
                 @include menuinicial;
             }
             .Forcoment{
                 width: $ancho - 10;
-                margin: 3rem auto;
+                margin: 4rem auto;
                 padding: 4rem;
                 background-color: rgb(7, 53, 61);
                 opacity: 95%;
-                grid-area: Forcoment;
                     .btn{
                         margin-left: 4rem;
                     }
@@ -128,7 +121,6 @@ body{
             .footcontact{
                 width: $ancho;
                 margin: 20px auto;
-                grid-area: footcontact;
                 .p-1{
                     @import "menu2";
                 }
@@ -149,13 +141,34 @@ body{
                 }
                 .footerInicio{
                     .p-1{
-                        .menu2{
-                            display: flex;
-                            flex-direction:row;
-                            justify-content: space-evenly;
-                            gap: 1.5rem;
-                            float:none;
-                        }
+                        @import "footer@";
+                    }
+                }
+            }
+            .ContenedorAbout{
+                .Fabout{
+                    .p-1{
+                        @import "footer@";
+                    }
+                }
+            }
+            .prodContainer{
+                .footerProd{
+                    .p-1{
+                        @import "footer@";
+                    }
+                }
+            }
+            .contenedorcontacto{
+                .Forcoment{
+                    width: 100%;
+                    margin: 2rem auto;
+                    padding: 1rem auto;
+
+                }
+                .footcontact{
+                    .p-1{
+                        @import "footer@";
                     }
                 }
             }

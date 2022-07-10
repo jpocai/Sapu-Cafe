@@ -32,7 +32,6 @@ body {
 body .headerInicio {
   width: 100%;
   margin: 20px auto;
-  grid-area: headerInicio;
 }
 
 body .headerInicio .navbar-expand-lg {
@@ -43,10 +42,6 @@ body .headerInicio .navbar-expand-lg {
 
 body .headerInicio .navbar-expand-lg .nav-item {
   padding: 1rem;
-}
-
-body .mainInicio {
-  grid-area: mainInicio;
 }
 
 body .mainInicio .packs {
@@ -132,10 +127,6 @@ body .footerInicio .p-1 .menu2 .contacto {
   margin: 20px auto;
 }
 
-.ContenedorAbout .HAbout {
-  grid-area: HAbout;
-}
-
 .ContenedorAbout .HAbout .navbar-expand-lg {
   width: 90%;
   margin: 20px auto;
@@ -148,12 +139,10 @@ body .footerInicio .p-1 .menu2 .contacto {
 
 .ContenedorAbout .main {
   font-size: 1.3rem;
-  grid-area: main;
 }
 
 .ContenedorAbout .Fabout {
   margin: 4rem;
-  grid-area: Fabout;
 }
 
 .ContenedorAbout .Fabout .p-1 .menu2 {
@@ -274,10 +263,6 @@ body .footerInicio .p-1 .menu2 .contacto {
   margin: 20px auto;
 }
 
-.contenedorcontacto .Hcontact {
-  grid-area: Hcontact;
-}
-
 .contenedorcontacto .Hcontact .navbar-expand-lg {
   width: 90%;
   margin: 20px auto;
@@ -290,11 +275,10 @@ body .footerInicio .p-1 .menu2 .contacto {
 
 .contenedorcontacto .Forcoment {
   width: 80%;
-  margin: 3rem auto;
+  margin: 4rem auto;
   padding: 4rem;
   background-color: #07353d;
   opacity: 95%;
-  grid-area: Forcoment;
 }
 
 .contenedorcontacto .Forcoment .btn {
@@ -304,7 +288,6 @@ body .footerInicio .p-1 .menu2 .contacto {
 .contenedorcontacto .footcontact {
   width: 90%;
   margin: 20px auto;
-  grid-area: footcontact;
 }
 
 .contenedorcontacto .footcontact .p-1 .menu2 {
@@ -357,6 +340,53 @@ body .footerInicio .p-1 .menu2 .contacto {
     height: 200px;
   }
   .contenedorInicio .footerInicio .p-1 .menu2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    gap: 1.5rem;
+    float: none;
+  }
+  .ContenedorAbout .Fabout .p-1 .menu2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    gap: 1.5rem;
+    float: none;
+  }
+  .prodContainer .footerProd .p-1 .menu2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    gap: 1.5rem;
+    float: none;
+  }
+  .contenedorcontacto .Forcoment {
+    width: 100%;
+    margin: 2rem auto;
+    padding: 1rem auto;
+  }
+  .contenedorcontacto .footcontact .p-1 .menu2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
