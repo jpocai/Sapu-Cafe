@@ -2,12 +2,12 @@
     .navbar-expand-lg{
         width: $ancho;
         margin: 20px auto;
-        opacity: 85%;           
+        opacity: 85%;          
             .nav-item{
                 padding: 1rem;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
                     &:hover{
-                        transform: scale(1.2,1.2);
-                        
+                        transform: scale(1.2,1.2);   
                     }
             }
         }
@@ -19,8 +19,7 @@
                     .nav-item{
                         padding: 1rem;
                             &:hover{
-                                transform:none;
-                                
+                                transform:none;  
                             }
                     }
                 }

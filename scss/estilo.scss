@@ -20,7 +20,6 @@ body{
                 @include menuinicial;  
             }
             .mainInicio{
-
                     .intro{
                         @extend .intro;
                     }
@@ -29,6 +28,7 @@ body{
                         padding: 2rem;
                         margin: 10px auto;
                         text-align: center;
+                        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
                         color: rgb(31, 230, 236);
                         background-color: #07353d;
                         opacity: 85%;
@@ -104,6 +104,8 @@ body{
                     margin: 7rem auto;
                 .card{
                     color: navy;
+                    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    font-size: 1.1rem;
                     text-align: center;
                         &:hover{
                             transform: scale(1.2,1.2);
@@ -119,6 +121,8 @@ body{
                     margin: 7rem auto;
                 .card{
                     color: navy;
+                    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    font-size: 1.1rem;
                     text-align: center;
                         &:hover{
                             transform: scale(1.2,1.2);
@@ -136,6 +140,7 @@ body{
         .contenedorcontacto{
             width: $ancho + 10;
             margin: 20px auto;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             .Hcontact{
                 @include menuinicial;
             }

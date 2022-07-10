@@ -42,6 +42,7 @@ body .headerInicio .navbar-expand-lg {
 
 body .headerInicio .navbar-expand-lg .nav-item {
   padding: 1rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 body .headerInicio .navbar-expand-lg .nav-item:hover {
@@ -69,6 +70,7 @@ body .mainInicio .tit__pack {
   padding: 2rem;
   margin: 10px auto;
   text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: #1fe6ec;
   background-color: #07353d;
   opacity: 85%;
@@ -190,6 +192,7 @@ body .footerInicio .p-1 .menu2 .contacto:hover {
 
 .ContenedorAbout .HAbout .navbar-expand-lg .nav-item {
   padding: 1rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .ContenedorAbout .HAbout .navbar-expand-lg .nav-item:hover {
@@ -290,6 +293,7 @@ body .footerInicio .p-1 .menu2 .contacto:hover {
 
 .prodContainer .headerProd .navbar-expand-lg .nav-item {
   padding: 1rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .prodContainer .headerProd .navbar-expand-lg .nav-item:hover {
@@ -327,6 +331,8 @@ body .footerInicio .p-1 .menu2 .contacto:hover {
 
 .prodContainer .productos1 .card {
   color: navy;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.1rem;
   text-align: center;
 }
 
@@ -350,6 +356,8 @@ body .footerInicio .p-1 .menu2 .contacto:hover {
 
 .prodContainer .productos2 .card {
   color: navy;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.1rem;
   text-align: center;
 }
 
@@ -423,6 +431,7 @@ body .footerInicio .p-1 .menu2 .contacto:hover {
 .contenedorcontacto {
   width: 100%;
   margin: 20px auto;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .contenedorcontacto .Hcontact .navbar-expand-lg {
@@ -433,6 +442,7 @@ body .footerInicio .p-1 .menu2 .contacto:hover {
 
 .contenedorcontacto .Hcontact .navbar-expand-lg .nav-item {
   padding: 1rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .contenedorcontacto .Hcontact .navbar-expand-lg .nav-item:hover {
