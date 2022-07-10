@@ -196,8 +196,8 @@ body{
                         width: $ancho;  
                     }
                     .packs{
-                        width: $ancho;
-                        margin: 2rem auto;
+                        width: 100%;
+                        margin: 4rem auto;
                     }
                 }
                 .footerInicio{
@@ -223,15 +223,15 @@ body{
                     width: $ancho;
                 }
                 .productos1{
-                    width: $ancho;
-                    margin: 2rem auto;
+                    width: 100%;
+                    margin: 4rem auto;
                     display: flex;
                     flex-direction: column;
                     gap: 5rem;
                 }
                 .productos2{
-                    width: $ancho;
-                    margin: 2rem auto;
+                    width: 100%;
+                    margin: 4rem auto;
                     display: flex;
                     flex-direction: column; 
                     gap: 5rem;
