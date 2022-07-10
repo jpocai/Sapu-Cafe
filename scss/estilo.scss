@@ -58,10 +58,20 @@ body{
                 width: $ancho;
                 margin: 20px auto;
                     .sucursal{
+                        .tit__suc{
+                            width: 25rem;
+                            padding: 2rem;
+                            margin: 10px auto;
+                            text-align: center;
+                            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                            color: rgb(31, 230, 236);
+                            background-color: #07353d;
+                            opacity: 85%;
+                        }
                         .sucursal__ubi{
                             display: flex;
                             justify-content: space-around;
-                            margin: 4rem auto;
+                            margin: 6rem auto;
                                 &:hover{
                                     transform: scale(1.1,1.1);
                                 }

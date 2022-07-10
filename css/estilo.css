@@ -108,13 +108,24 @@ body .footerInicio {
   margin: 20px auto;
 }
 
+body .footerInicio .sucursal .tit__suc {
+  width: 25rem;
+  padding: 2rem;
+  margin: 10px auto;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #1fe6ec;
+  background-color: #07353d;
+  opacity: 85%;
+}
+
 body .footerInicio .sucursal .sucursal__ubi {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin: 4rem auto;
+  margin: 6rem auto;
 }
 
 body .footerInicio .sucursal .sucursal__ubi:hover {
