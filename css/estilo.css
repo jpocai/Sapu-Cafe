@@ -101,9 +101,9 @@ body .footerInicio .p-1 .menu2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   float: right;
 }
 
@@ -167,9 +167,9 @@ body .footerInicio .p-1 .menu2 .contacto {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   float: right;
 }
 
@@ -243,9 +243,9 @@ body .footerInicio .p-1 .menu2 .contacto {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   float: right;
 }
 
@@ -318,9 +318,9 @@ body .footerInicio .p-1 .menu2 .contacto {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   float: right;
 }
 
@@ -357,11 +357,8 @@ body .footerInicio .p-1 .menu2 .contacto {
     height: 200px;
   }
   .contenedorInicio .footerInicio .p-1 .menu2 {
-    margin: 2rem;
-  }
-  .contenedorInicio .footerInicio .p-1 .menu2 .facebook {
-    width: 15px;
-    height: 15px;
+    margin-right: 2rem;
+    gap: 1.5rem;
   }
 }
 /*# sourceMappingURL=estilo.css.map */
