@@ -81,7 +81,7 @@ body{
                 .headerProd{
                     @include menuinicial;
                 }
-                .productos{
+                .productos1{
                     width: $ancho;
                     margin: 3rem auto;
                     padding: 2rem;
@@ -91,7 +91,18 @@ body{
                 .card{
                     color: navy;
                     text-align: center;
-                    text-decoration:underline;
+                    }
+                }
+                .productos2{
+                    width: $ancho;
+                    margin: 3rem auto;
+                    padding: 2rem;
+                    display: flex;
+                    justify-content: space-between;
+                    margin: 7rem auto;
+                .card{
+                    color: navy;
+                    text-align: center;
                     }
                 }
         .footerProd{
@@ -153,6 +164,16 @@ body{
                 }
             }
             .prodContainer{
+                .productos1{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5rem;
+                }
+                .productos2{
+                    display: flex;
+                    flex-direction: column; 
+                    gap: 5rem;
+                }
                 .footerProd{
                     .p-1{
                         @import "footer@";
