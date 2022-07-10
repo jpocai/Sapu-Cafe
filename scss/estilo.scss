@@ -150,8 +150,11 @@ body{
                 .footerInicio{
                     .p-1{
                         .menu2{
-                            margin-right: 10rem;
+                            display: flex;
+                            flex-direction:row;
+                            justify-content: space-evenly;
                             gap: 1.5rem;
+                            float:none;
                         }
                     }
                 }

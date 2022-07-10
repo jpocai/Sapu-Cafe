@@ -357,8 +357,18 @@ body .footerInicio .p-1 .menu2 .contacto {
     height: 200px;
   }
   .contenedorInicio .footerInicio .p-1 .menu2 {
-    margin-right: 10rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
     gap: 1.5rem;
+    float: none;
   }
 }
 /*# sourceMappingURL=estilo.css.map */
