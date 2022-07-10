@@ -190,7 +190,9 @@ body{
                 }
                 .footerInicio{
                     .sucursal{
-                        width: $ancho;
+                        .tit__suc{
+                            width: $ancho;
+                        }
                     }
                     .p-1{
                         @import "footer@";
