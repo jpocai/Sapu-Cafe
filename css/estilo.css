@@ -64,6 +64,16 @@ body .headerInicio .navbar-expand-lg .nav-item:hover {
   }
 }
 
+body .mainInicio .tit__pack {
+  width: 25rem;
+  padding: 2rem;
+  margin: 10px auto;
+  text-align: center;
+  color: #1fe6ec;
+  background-color: #07353d;
+  opacity: 85%;
+}
+
 body .mainInicio .packs {
   width: 70%;
   margin-left: 15vw;
@@ -102,12 +112,12 @@ body .footerInicio .sucursal .sucursal__ubi {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin: 6rem auto;
+  margin: 4rem auto;
 }
 
 body .footerInicio .sucursal .sucursal__ubi:hover {
-  -webkit-transform: scale(1.2, 1.2);
-          transform: scale(1.2, 1.2);
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
 }
 
 body .footerInicio .p-1 .menu2 {
@@ -530,7 +540,7 @@ body .footerInicio .p-1 .menu2 .contacto:hover {
   .contenedorInicio .mainInicio .videoIntro .videonos {
     width: 300px;
     height: 200px;
-    margin-bottom: 25vh;
+    margin-bottom: 30vh;
   }
   .contenedorInicio .footerInicio .p-1 .menu2 {
     display: -webkit-box;
