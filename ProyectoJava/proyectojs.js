@@ -1,4 +1,3 @@
-
 class Cafe {
     constructor (tipo, precio, lote, vencimiento){
         this.tipo = tipo;
