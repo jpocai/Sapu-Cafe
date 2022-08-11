@@ -1,9 +1,10 @@
 class Cafe {
-    constructor (tipo, precio, lote, vencimiento){
-        this.tipo = tipo;
+    constructor (id, imagen, nombre, descripcion, precio){
+        this.id = id;
+        this.imagen = imagen;
+        this.nombre = nombre;
+        this.descripcion = descripcion;
         this.precio = precio;
-        this.lote = lote;
-        this.vencimiento = vencimiento;
     }
     sumaIva (){
         this.precio = this.precio * 1.21;
@@ -11,27 +12,61 @@ class Cafe {
 }
 
 const productos = [];
-productos. push(new Cafe ("torrado", 800, 001, "120 dias",));
-productos. push(new Cafe ("molido", 800, 002, "60 dias",));
-productos. push(new Cafe ("tostado", 800, 003, "90 dias",));
+const molido = { 
+    id: 1,
+    imagen:"#",
+    nombre:"Café molido",
+    descripcion: "Café molido",
+    precio: 800.0,}
+const tostado = { 
+    id: 2,
+    imagen:"#",
+    nombre:"Café tostado",
+    descripcion: "Café en granos tostado",
+    precio: 800.0,}
+const torrado = { 
+    id: 3,
+    imagen:"#",
+    nombre:"Café torrado",
+    descripcion: "Café en granos torrado",
+    precio: 800.0,}
 
-console.log(productos);
+
+
+let botonTorrado = document.getElementById("botonTorrado");
+botonTorrado.onclick = () => {
+alert("Agregaste un producto al carrito!");
+productos.push[torrado];
+console.table(productos);
+}
+let botonMolido = document.getElementById("botonMolido");
+botonMolido.onclick = () => {
+alert("Agregaste un producto al carrito!");
+productos.push(molido);
+console.table(productos);
+}
+let botonTostado = document.getElementById("botonTostado");
+botonTostado.onclick = () => {
+alert("Agregaste un producto al carrito!");
+productos.push(tostado);
+console.table(productos);
+}
 
 for (const Cafe of productos){
     Cafe.sumaIva();
 } 
 
+// const stock = ;
 const stockCafe = ["torrado", " molido", " tostado"];
 console.log("Tenemos en stock los siguientes tipos de cafe: " + stockCafe);
 console.log("En stock tenemos " + stockCafe.length + " articulos");
 
-let tipoBuscado = prompt ("Ingrese el tipo de café que desea buscar");
-for (const Cafe of productos){
-    if(Cafe.tipo == tipoBuscado){
-        console.log(Cafe);
-    }
-}
-
+// let tipoBuscado = prompt ("Ingrese el tipo de café que desea buscar\nNuestros estilos de cafe son:\n- Torrado.\n- Molido.\n- Tostado.");
+// for (const Cafe of productos){
+//     if(Cafe.tipo == tipoBuscado){
+//         console.log(Cafe);
+//     }
+// }
 function sumaIva (precio, iva){
     precio = precio;
     iva = 1.21;
@@ -44,13 +79,17 @@ function calcularInteres (precioConIva, interes) {
     let int = (precioConIva * interes); 
     return int;
 }
-
-// let precioConIva = sumaIva();
+function capturarEsc(e){
+    if(e.keycode==27 || e.which==27){
+        alert("presionaste la tecla Esc");
+    }
+}
+let precioConIva = sumaIva();
 let precioConInt = calcularInteres();
 // let precioFinal = calcularInteres();
-let cuotas = parseInt ( prompt ("Ingresa la cantidad de cuotas deseada.\n(3, 6, 9, 12, 18)\n(Presiona s para salir o presiona c para abonar de contado.)"));
+let cuotas = parseInt ( prompt ("Ingresa la cantidad de cuotas deseada.\n(3, 6, 9, 12, 18)\n(Presiona Esc para salir o presiona c para abonar de contado.)"));
 
-while ((cuotas != "s") || (cuotas === "c")) {
+while ((cuotas != capturarEsc(27) || (cuotas === "c"))) {
     switch (cuotas) {
         case "3":
             precioConIva = sumaIva(800, 1.21);
@@ -85,15 +124,17 @@ while ((cuotas != "s") || (cuotas === "c")) {
             alert ("No ofrecemos esa cantidad de cuotas");
             break;
         }
-            cuotas = prompt ("Ingresa la cantidad de cuotas deseada.\n(3, 6, 9, 12, 18)\n(Presiona s para salir o presiona c para abonar de contado.)");
+            cuotas = prompt ("Ingresa la cantidad de cuotas deseada.\n(3, 6, 9, 12, 18)\n(Presiona Esc para salir o presiona c para abonar de contado.)");
     }
 
 
 let desc = precioConIva * 0.90;
-let promo = prompt ("Ingresá tu código promocional");
+let promo = prompt ("Ingresá tu código promocional o presiona Esc para salir.");
 if ((promo === "sapucafe10") || (promo === "SAPUCAFE10")){
     console.log("Felicidades, accediste a un decuento adicional de un 10%!");
     console.log("El total a pagar es: " + desc);
+} else if (promo == capturarEsc(27)){
+    alert("No has ingresado ningún código. El precio total es de: $" + precioConIva);
 } else if ((promo !== "sapucafe10") || (promo !== "SAPUCAFE10")){
     console.log("Lo siento, no pudimos validar ese código de descuento.");
 }
