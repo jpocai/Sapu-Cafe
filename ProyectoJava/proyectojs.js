@@ -25,7 +25,7 @@ if (localStorage.getItem("carrito")){
 const productos = [{
 
     id: 1,
-    imagen:"https://github.com/jpocai/Sapu-Cafe/blob/Main/Images/Fotosproductos/Producto%201.png",
+    imagen: "https://github.com/jpocai/Sapu-Cafe/blob/Main/Images/Fotosproductos/Producto%201.png",
     nombre:"Café molido",
     descripcion: "Café molido 1kg",
     precio: 800.00},
@@ -69,7 +69,7 @@ function renderizar() {
     stock.innerHTML += 
         `<li class="row list-group list-group-horizontal>"
         <h3> ID: ${producto.id} </h3>
-        <img src= ${producto.imagen} width="250" heigt="250">
+        <img src= ${producto.imagen} width="250px" heigt="250px">
         <p> Producto: ${producto.descripcion} </p>
         <p> Producto: ${producto.precio} </p>
         <button class= "btn btn-primary" id="btn${producto.id}">Comprar</button>
